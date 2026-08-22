@@ -1,0 +1,10 @@
+{
+  "embed_dim": 32,
+  "n_heads": 8,
+  "n_blocks": 3,
+  "attn_dropout": 0.1656078720226557,
+  "mlp_dropout": 0.11864769487974858,
+  "lr": 0.004982585117992922,
+  "weight_decay": 3.574998370645212e-05,
+  "batch_size": 256
+}

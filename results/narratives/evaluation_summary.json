@@ -1,0 +1,28 @@
+{
+  "n_narratives": 100,
+  "feature_faithfulness_pct": 98.0,
+  "mean_top_features_mentioned": 2.98,
+  "hallucination_rate_pct": 0.0,
+  "zero_hallucinations_pct": 100.0,
+  "mean_word_count": 151.1,
+  "length_compliance_pct": 97.0,
+  "total_cost_usd": 0.0162,
+  "model": "gpt-4o-mini",
+  "human_study": {
+    "Clarity": {
+      "n_ratings": 90,
+      "mean": 4.49,
+      "std": 0.64
+    },
+    "Accuracy": {
+      "n_ratings": 90,
+      "mean": 4.5,
+      "std": 0.64
+    },
+    "Usefulness": {
+      "n_ratings": 90,
+      "mean": 4.49,
+      "std": 0.64
+    }
+  }
+}

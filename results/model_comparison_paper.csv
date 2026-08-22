@@ -1,0 +1,5 @@
+Model,F1-macro,AUC-ROC,F1 At-Risk,F1 Distressed,F1 Healthy,Train (s),Params
+LogisticRegression,0.737 ± 0.000,0.907,0.718,0.854,0.638,0.0,72
+XGBoost,0.847 ± 0.001,0.963,0.835,0.897,0.81,0.8,2156224
+MLP,0.789 ± 0.015,0.941,0.778,0.877,0.713,9.1,40195
+TabTransformer,0.754 ± 0.011,0.932,0.737,0.862,0.664,248.1,65431

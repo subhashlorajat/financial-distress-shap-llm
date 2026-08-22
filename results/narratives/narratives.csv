@@ -1,0 +1,1301 @@
+company_id,year,true_label,predicted_label,correct,top1_feature,top2_feature,top3_feature,prompt,narrative,model,input_tokens,output_tokens,cost_usd,error
+TSRI,2022,Healthy,Healthy,True,asset_turnover,debt_to_equity,ebit_margin,"Company: TSRI
+Fiscal year: 2022
+Model predicted class: Healthy
+Class probabilities: Healthy=0.94, At-Risk=0.03, Distressed=0.03
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=3.204, SHAP contribution=+3.223
+- debt_to_equity: value=0.676, SHAP contribution=-0.380
+- ebit_margin: value=0.004, SHAP contribution=-0.364
+
+Write the analyst report now.","The model predicts that TSRI is in a healthy financial state, with a high confidence level reflected in the probabilities: 94% healthy, 3% at-risk, and 3% distressed. The strongest positive contributor to this prediction is the asset turnover ratio, which stands at 3.204 and has a SHAP contribution of +3.223. This indicates that TSRI is efficiently utilizing its assets to generate revenue, supporting the overall healthy outlook.
+
+However, the model also identifies some concerns, particularly with the debt-to-equity ratio, which is at 0.676 and contributes negatively with a SHAP value of -0.380. This suggests that while TSRI is performing well, its leverage may be higher than ideal, potentially increasing financial risk. Additionally, the ebit margin is very low at 0.004, contributing -0.364, indicating limited profitability from operations. These factors introduce some uncertainty, warranting further scrutiny despite the overall positive assessment.",gpt-4o-mini,275,197,0.000159,
+PLAB,2023,Healthy,Healthy,True,debt_to_equity,asset_turnover,ebit_margin,"Company: PLAB
+Fiscal year: 2023
+Model predicted class: Healthy
+Class probabilities: Healthy=0.98, At-Risk=0.02, Distressed=0.00
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- debt_to_equity: value=0.197, SHAP contribution=+2.150
+- asset_turnover: value=0.585, SHAP contribution=-1.006
+- ebit_margin: value=0.284, SHAP contribution=+0.819
+
+Write the analyst report now.","The model predicts that PLAB is in a healthy financial position, with a high probability of 98% supporting this classification. The confidence in this prediction is strong, as indicated by the low probability of being at-risk or distressed. Key positive contributors to this outlook include the debt-to-equity ratio, which has a substantial SHAP contribution of +2.150, suggesting that the company maintains a favorable balance between debt and equity, enhancing its financial stability. Additionally, the ebit margin, with a contribution of +0.819, indicates that the company is effectively managing its operational profitability.
+
+However, the asset turnover ratio presents a challenge, contributing negatively with a SHAP value of -1.006. This suggests that PLAB may not be utilizing its assets as efficiently as it could, which could hinder overall performance despite the positive indicators from the other features. Overall, while the strong debt-to-equity ratio and ebit margin support a healthy classification, the concerns surrounding asset turnover warrant attention from the credit committee.",gpt-4o-mini,276,203,0.000163,
+MBUU,2022,Healthy,Healthy,True,asset_turnover,ebit_margin,net_margin,"Company: MBUU
+Fiscal year: 2022
+Model predicted class: Healthy
+Class probabilities: Healthy=0.93, At-Risk=0.07, Distressed=0.00
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=1.427, SHAP contribution=+1.906
+- ebit_margin: value=0.176, SHAP contribution=+0.706
+- net_margin: value=0.130, SHAP contribution=+0.568
+
+Write the analyst report now.","The machine-learning model predicts that MBUU is in a healthy financial state, with a high confidence level reflected in the probabilities: 93% healthy, 7% at-risk, and 0% distressed. The top SHAP feature contributing positively to this outlook is the asset turnover, which stands at 1.427 and has a significant contribution of +1.906. This indicates that the company is effectively utilizing its assets to generate revenue. Additionally, the ebit margin of 0.176 and net margin of 0.130, with contributions of +0.706 and +0.568 respectively, further support the healthy classification by demonstrating strong profitability metrics.
+
+Overall, the positive contributions from these key financial ratios suggest that MBUU is operating efficiently and maintaining solid profit margins. The model's confidence in the healthy classification is reinforced by these strong performance indicators, which collectively signal robust financial health and operational effectiveness.",gpt-4o-mini,276,185,0.000152,
+NTIP,2021,Healthy,Healthy,True,debt_to_equity,ebit_margin,asset_turnover,"Company: NTIP
+Fiscal year: 2021
+Model predicted class: Healthy
+Class probabilities: Healthy=0.99, At-Risk=0.00, Distressed=0.00
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- debt_to_equity: value=0.077, SHAP contribution=+2.434
+- ebit_margin: value=0.519, SHAP contribution=+0.947
+- asset_turnover: value=0.556, SHAP contribution=-0.780
+
+Write the analyst report now.","The model predicts that NTIP is in a healthy financial position, with a high confidence level reflected in the probabilities: 99% healthy, 0% at-risk, and 0% distressed. This positive outlook is primarily supported by the strong debt-to-equity ratio, which contributed significantly with a SHAP value of +2.434, indicating that the company's leverage is well-managed. Additionally, the ebit margin of 0.519, with a SHAP contribution of +0.947, further reinforces the company's profitability and operational efficiency.
+
+However, the asset turnover ratio, valued at 0.556, has a negative SHAP contribution of -0.780, suggesting that the company may not be utilizing its assets as effectively as it could be. While this factor slightly detracts from the overall positive assessment, the strong contributions from debt-to-equity and ebit margin outweigh this concern, leading to a confident prediction of NTIP's healthy status.",gpt-4o-mini,276,193,0.000157,
+PAY,2024,Healthy,Healthy,True,debt_to_equity,asset_turnover,current_ratio,"Company: PAY
+Fiscal year: 2024
+Model predicted class: Healthy
+Class probabilities: Healthy=0.99, At-Risk=0.01, Distressed=0.00
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- debt_to_equity: value=0.187, SHAP contribution=+1.835
+- asset_turnover: value=1.513, SHAP contribution=+0.751
+- current_ratio: value=4.238, SHAP contribution=+0.451
+
+Write the analyst report now.","The model predicts that PAY is in a healthy financial position, with a high confidence level reflected in a probability of 99% for the healthy class. This strong outlook is supported primarily by the company's debt-to-equity ratio, which has a significant positive SHAP contribution of +1.835. This indicates that PAY's manageable debt levels relative to its equity are a key strength. Additionally, the asset turnover ratio of 1.513 contributes positively (+0.751), suggesting that the company is effectively utilizing its assets to generate revenue. Lastly, the current ratio of 4.238, with a positive contribution of +0.451, indicates that PAY has a solid liquidity position, further reinforcing the prediction of a healthy status.
+
+Overall, the model's confidence in PAY's robust financial health is underpinned by these favorable metrics. The positive contributions from debt-to-equity, asset turnover, and current ratio collectively suggest that PAY is well-positioned to meet its financial obligations and sustain growth in the upcoming fiscal year.",gpt-4o-mini,275,204,0.000164,
+PAY,2022,Healthy,Healthy,True,debt_to_equity,current_ratio,ebit_margin,"Company: PAY
+Fiscal year: 2022
+Model predicted class: Healthy
+Class probabilities: Healthy=0.95, At-Risk=0.04, Distressed=0.01
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- debt_to_equity: value=0.162, SHAP contribution=+2.342
+- current_ratio: value=4.446, SHAP contribution=+0.394
+- ebit_margin: value=-0.006, SHAP contribution=-0.389
+
+Write the analyst report now.","The model predicts that PAY is in a healthy financial position, with a high confidence level reflected in the probabilities: 95% healthy, 4% at-risk, and 1% distressed. The strongest positive contributor to this outlook is the debt-to-equity ratio, which indicates a solid capital structure, contributing +2.342 to the SHAP score. Additionally, the current ratio of 4.446 suggests that PAY has ample liquidity to cover short-term obligations, adding +0.394 to the overall assessment.
+
+However, the ebit_margin feature presents a slight concern, with a negative SHAP contribution of -0.389. This indicates that while PAY's profitability margins are not significantly detrimental, they are not as strong as they could be, which slightly offsets the positive contributions from the other features. Overall, the model's prediction of a healthy status is well-supported, but attention should be paid to improving profitability margins to enhance financial stability further.",gpt-4o-mini,274,191,0.000156,
+EXPD,2021,Healthy,Healthy,True,asset_turnover,debt_to_equity,opex_ratio,"Company: EXPD
+Fiscal year: 2021
+Model predicted class: Healthy
+Class probabilities: Healthy=0.93, At-Risk=0.05, Distressed=0.03
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=2.171, SHAP contribution=+2.707
+- debt_to_equity: value=1.175, SHAP contribution=-0.661
+- opex_ratio: value=0.760, SHAP contribution=-0.386
+
+Write the analyst report now.","The model predicts that EXPD is in a healthy financial state, with a high confidence level reflected in the class probabilities of 93% for healthy, 5% for at-risk, and 3% for distressed. The strongest positive contributor to this outlook is the asset turnover ratio, which stands at 2.171 and has a SHAP contribution of +2.707. This indicates that the company is effectively utilizing its assets to generate revenue, a key indicator of operational efficiency.
+
+However, there are some concerns that could potentially weaken the outlook. The debt-to-equity ratio of 1.175 has a negative SHAP contribution of -0.661, suggesting that the company's leverage may be higher than ideal, which could pose risks in times of financial strain. Additionally, the operating expense ratio, with a value of 0.760 and a SHAP contribution of -0.386, indicates that the company may be facing challenges in managing its operating costs effectively. While the overall assessment is positive, these negative factors warrant attention from the credit committee.",gpt-4o-mini,275,212,0.000168,
+CMC,2021,Healthy,Healthy,True,asset_turnover,debt_to_equity,current_ratio,"Company: CMC
+Fiscal year: 2021
+Model predicted class: Healthy
+Class probabilities: Healthy=0.64, At-Risk=0.36, Distressed=0.01
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=1.451, SHAP contribution=+1.497
+- debt_to_equity: value=1.021, SHAP contribution=-0.645
+- current_ratio: value=2.791, SHAP contribution=+0.291
+
+Write the analyst report now.","The model predicts that CMC is in a healthy financial state with a probability of 64%, indicating a level of confidence in this assessment. The strongest positive contributor to this outlook is the asset turnover ratio of 1.451, which has a significant SHAP contribution of +1.497. This suggests that CMC is effectively utilizing its assets to generate revenue, a key indicator of operational efficiency. Additionally, the current ratio of 2.791 contributes positively with a SHAP value of +0.291, reflecting a solid liquidity position that supports the company's ability to meet its short-term obligations.
+
+However, the debt-to-equity ratio, at 1.021, presents a negative SHAP contribution of -0.645, which slightly detracts from the overall positive assessment. This indicates that while CMC is performing well operationally, its reliance on debt financing could pose risks to its financial stability if not managed carefully. Overall, the model expresses confidence in CMC's healthy status, but the debt levels warrant monitoring to ensure they do not adversely affect future performance.",gpt-4o-mini,275,215,0.00017,
+MYRG,2024,Healthy,Healthy,True,asset_turnover,debt_to_equity,net_margin,"Company: MYRG
+Fiscal year: 2024
+Model predicted class: Healthy
+Class probabilities: Healthy=0.65, At-Risk=0.34, Distressed=0.01
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=2.258, SHAP contribution=+2.648
+- debt_to_equity: value=1.480, SHAP contribution=-0.654
+- net_margin: value=0.009, SHAP contribution=-0.543
+
+Write the analyst report now.","The model predicts that MYRG is in a ""Healthy"" financial state with a probability of 65%, indicating a level of confidence in this assessment. The strongest positive contributor to this outlook is the asset turnover ratio, which stands at 2.258 and has a SHAP contribution of +2.648. This suggests that MYRG is efficiently utilizing its assets to generate revenue, which is a strong indicator of operational effectiveness.
+
+However, the model also highlights some concerns that could negatively impact the outlook. The debt-to-equity ratio is at 1.480, contributing -0.654, indicating a relatively high level of debt compared to equity, which may raise financial risk. Additionally, the net margin is only 0.009, with a SHAP contribution of -0.543, suggesting that profitability is marginal and could be a potential area of concern. Overall, while the positive asset turnover supports a healthy classification, the negative contributions from debt and net margin warrant careful monitoring.",gpt-4o-mini,274,197,0.000159,
+INMD,2021,Healthy,Healthy,True,debt_to_equity,ebit_margin,net_margin,"Company: INMD
+Fiscal year: 2021
+Model predicted class: Healthy
+Class probabilities: Healthy=1.00, At-Risk=0.00, Distressed=0.00
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- debt_to_equity: value=0.151, SHAP contribution=+1.862
+- ebit_margin: value=0.466, SHAP contribution=+1.187
+- net_margin: value=0.461, SHAP contribution=+0.447
+
+Write the analyst report now.","The model confidently predicts that INMD is in a healthy financial state, with a probability of 100% for this classification. This strong outlook is primarily supported by the company's debt-to-equity ratio, which has a significant positive SHAP contribution of +1.862, indicating a solid capital structure that minimizes financial risk. Additionally, the company's ebit margin and net margin also contribute positively, with SHAP values of +1.187 and +0.447, respectively, reflecting effective operational efficiency and profitability.
+
+These positive contributions suggest that INMD is well-positioned to sustain its financial health. The favorable debt-to-equity ratio implies that the company is not overly reliant on debt, while the robust ebit and net margins indicate strong earnings relative to revenue. Overall, the model's confidence in the healthy classification is backed by these strong financial metrics, suggesting that INMD is likely to continue performing well in the near term.",gpt-4o-mini,276,185,0.000152,
+MMI,2022,Healthy,Healthy,True,asset_turnover,debt_to_equity,current_ratio,"Company: MMI
+Fiscal year: 2022
+Model predicted class: Healthy
+Class probabilities: Healthy=0.97, At-Risk=0.03, Distressed=0.00
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=1.297, SHAP contribution=+1.075
+- debt_to_equity: value=0.407, SHAP contribution=+0.872
+- current_ratio: value=8.828, SHAP contribution=+0.381
+
+Write the analyst report now.","The machine-learning model predicts that MMI is in a healthy financial position, with a high probability of 97% for this classification. This strong outlook is supported by several key factors, particularly the asset turnover ratio, which stands at 1.297 and contributes positively by 1.075. This indicates that MMI is effectively utilizing its assets to generate revenue. Additionally, the debt-to-equity ratio of 0.407, with a SHAP contribution of 0.872, suggests a prudent approach to leveraging, further reinforcing the company's financial stability.
+
+The current ratio of 8.828, contributing positively by 0.381, indicates that MMI has ample short-term assets to cover its liabilities, which enhances its liquidity position. Overall, the model's high confidence in the healthy classification reflects a robust financial profile, driven by strong asset management and low leverage, positioning MMI favorably for future growth and stability.",gpt-4o-mini,276,186,0.000153,
+GPI,2023,Healthy,Healthy,True,asset_turnover,debt_to_equity,current_ratio,"Company: GPI
+Fiscal year: 2023
+Model predicted class: Healthy
+Class probabilities: Healthy=0.95, At-Risk=0.05, Distressed=0.00
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=2.299, SHAP contribution=+3.211
+- debt_to_equity: value=1.907, SHAP contribution=-0.757
+- current_ratio: value=1.114, SHAP contribution=-0.501
+
+Write the analyst report now.","The model predicts that GPI is in a healthy financial position, with a high confidence level reflected in the class probabilities of 95% for healthy and only 5% for at-risk. The positive contribution from asset turnover, which stands at 2.299, significantly supports this outlook, indicating that GPI is effectively utilizing its assets to generate revenue. This efficiency is a strong indicator of operational health.
+
+However, the negative contributions from debt to equity and current ratio slightly offset the positive outlook. The debt to equity ratio of 1.907, with a SHAP contribution of -0.757, suggests that GPI's leverage may be higher than ideal, which could raise concerns about financial stability. Similarly, the current ratio of 1.114, contributing -0.501, indicates that while GPI can cover its short-term liabilities, it is not excessively liquid. Overall, despite these concerns, the strong asset turnover reinforces the model's prediction of a healthy status for GPI.",gpt-4o-mini,274,199,0.00016,
+EXPD,2024,Healthy,Healthy,True,asset_turnover,debt_to_equity,opex_ratio,"Company: EXPD
+Fiscal year: 2024
+Model predicted class: Healthy
+Class probabilities: Healthy=0.93, At-Risk=0.05, Distressed=0.02
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=2.230, SHAP contribution=+2.790
+- debt_to_equity: value=1.136, SHAP contribution=-0.664
+- opex_ratio: value=0.713, SHAP contribution=-0.417
+
+Write the analyst report now.","The model predicts that EXPD is in a healthy financial state, with a high confidence level reflected in the probabilities: 93% healthy, 5% at-risk, and 2% distressed. This positive outlook is largely supported by the strong asset turnover ratio of 2.230, which contributes significantly with a SHAP value of +2.790, indicating effective management of assets in generating revenue. 
+
+However, there are some concerns that slightly detract from the overall positive assessment. The debt-to-equity ratio of 1.136 has a negative SHAP contribution of -0.664, suggesting that a relatively high level of debt compared to equity could pose risks. Additionally, the operating expense ratio of 0.713 contributes negatively with -0.417, indicating that higher operating costs may be impacting profitability. While these factors do not outweigh the positive indicators, they warrant monitoring as they could influence the company's financial stability moving forward.",gpt-4o-mini,275,189,0.000155,
+FIZZ,2023,Healthy,Healthy,True,asset_turnover,ebit_margin,net_margin,"Company: FIZZ
+Fiscal year: 2023
+Model predicted class: Healthy
+Class probabilities: Healthy=1.00, At-Risk=0.00, Distressed=0.00
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=2.042, SHAP contribution=+2.273
+- ebit_margin: value=0.159, SHAP contribution=+0.590
+- net_margin: value=0.121, SHAP contribution=+0.482
+
+Write the analyst report now.","The model predicts that FIZZ is in a healthy financial position, with a confidence level of 100% in this assessment. This strong classification is supported by several key financial metrics, particularly the asset turnover ratio, which stands at 2.042 and contributes positively with a SHAP value of +2.273. This indicates that FIZZ is effectively utilizing its assets to generate revenue. Additionally, the company’s EBIT margin of 0.159 and net margin of 0.121, with SHAP contributions of +0.590 and +0.482 respectively, further reinforce the positive outlook by demonstrating solid profitability and operational efficiency.
+
+These positive SHAP contributions highlight the strengths in FIZZ's asset management and profitability, suggesting a robust financial health that is likely to attract favorable credit conditions. The model's high confidence in the healthy classification indicates that FIZZ is well-positioned for continued success, with no immediate signs of distress or risk. Overall, the financial indicators present a compelling case for the company's stability and growth potential.",gpt-4o-mini,275,205,0.000164,
+ELSE,2021,Healthy,Healthy,True,debt_to_equity,asset_turnover,current_ratio,"Company: ELSE
+Fiscal year: 2021
+Model predicted class: Healthy
+Class probabilities: Healthy=0.99, At-Risk=0.01, Distressed=0.00
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- debt_to_equity: value=0.070, SHAP contribution=+2.997
+- asset_turnover: value=0.620, SHAP contribution=-0.616
+- current_ratio: value=18.118, SHAP contribution=+0.559
+
+Write the analyst report now.","The model predicts that ELSE is in a Healthy financial state with a high confidence level, reflected in a probability of 99% for this classification. The top SHAP feature contributing positively to this outlook is the debt_to_equity ratio, which indicates a strong financial structure with a contribution of +2.997. This suggests that ELSE is effectively managing its debt relative to its equity, which is a positive sign for creditworthiness. Additionally, the current_ratio of 18.118, with a contribution of +0.559, further supports the company's healthy status by demonstrating its ability to cover short-term liabilities comfortably.
+
+However, there is a noteworthy negative contribution from the asset_turnover ratio, which stands at 0.620 and contributes -0.616. This indicates that ELSE may not be utilizing its assets as efficiently as possible to generate revenue, which could be a concern for future growth. Despite this drawback, the overall assessment remains positive due to the strong debt management and liquidity position, leading to a confident classification of the company as Healthy.",gpt-4o-mini,274,208,0.000166,
+APT,2021,Healthy,Healthy,True,debt_to_equity,current_ratio,revenue_growth,"Company: APT
+Fiscal year: 2021
+Model predicted class: Healthy
+Class probabilities: Healthy=0.99, At-Risk=0.00, Distressed=0.00
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- debt_to_equity: value=0.085, SHAP contribution=+2.307
+- current_ratio: value=18.984, SHAP contribution=+0.481
+- revenue_growth: value=-0.332, SHAP contribution=+0.289
+
+Write the analyst report now.","The model predicts that APT is in a healthy financial position, with a high confidence level indicated by a probability of 99% for the healthy class. This strong outlook is primarily supported by the debt-to-equity ratio, which has a significant positive SHAP contribution of +2.307. This suggests that APT maintains a manageable level of debt relative to its equity, enhancing its financial stability. Additionally, the current ratio of 18.984, contributing +0.481, indicates that the company is well-equipped to meet its short-term liabilities, further reinforcing its healthy status.
+
+While revenue growth has a negative value of -0.332, it still contributes positively to the model's prediction with a SHAP value of +0.289. This implies that despite the current revenue growth being a concern, it does not significantly detract from the overall positive assessment of APT's financial health. Overall, the model expresses a high level of confidence in APT's healthy classification, supported by its solid debt management and liquidity position.",gpt-4o-mini,275,207,0.000165,
+MPC,2022,Healthy,Healthy,True,asset_turnover,debt_to_equity,current_ratio,"Company: MPC
+Fiscal year: 2022
+Model predicted class: Healthy
+Class probabilities: Healthy=0.90, At-Risk=0.10, Distressed=0.00
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=1.990, SHAP contribution=+2.575
+- debt_to_equity: value=1.562, SHAP contribution=-0.735
+- current_ratio: value=1.793, SHAP contribution=-0.304
+
+Write the analyst report now.","The model predicts that MPC is in a healthy financial position, with a high confidence level reflected in the class probabilities of 90% healthy, 10% at-risk, and 0% distressed. The strongest positive influence on this prediction comes from the asset turnover ratio, which stands at 1.990 and contributes +2.575 to the model's output. This indicates that MPC is efficiently utilizing its assets to generate revenue, a key indicator of operational strength.
+
+However, there are some concerns that could impact the overall outlook. The debt-to-equity ratio of 1.562 contributes negatively at -0.735, suggesting that the company may be relying too heavily on debt financing, which can increase financial risk. Additionally, the current ratio of 1.793 also has a negative contribution of -0.304, indicating potential liquidity issues. While the strong asset turnover supports the healthy classification, the negative contributions from the debt-to-equity and current ratio warrant careful monitoring.",gpt-4o-mini,273,196,0.000159,
+GMED,2021,Healthy,Healthy,True,debt_to_equity,asset_turnover,ebit_margin,"Company: GMED
+Fiscal year: 2021
+Model predicted class: Healthy
+Class probabilities: Healthy=0.99, At-Risk=0.01, Distressed=0.00
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- debt_to_equity: value=0.124, SHAP contribution=+2.812
+- asset_turnover: value=0.489, SHAP contribution=-1.097
+- ebit_margin: value=0.203, SHAP contribution=+0.471
+
+Write the analyst report now.","The model predicts that GMED is in a healthy financial position with a high confidence level, as indicated by a probability of 99% for the Healthy class. This positive outlook is primarily supported by the company's debt-to-equity ratio, which has a significant SHAP contribution of +2.812. A lower debt-to-equity ratio generally indicates a stronger financial standing, suggesting that GMED is effectively managing its leverage. Additionally, the ebit_margin contributes positively with a SHAP value of +0.471, reinforcing the notion of operational efficiency and profitability.
+
+However, the asset_turnover ratio has a negative SHAP contribution of -1.097, which slightly detracts from the overall positive assessment. This indicates that GMED may not be utilizing its assets as efficiently as possible, which could hinder revenue generation relative to its asset base. Despite this concern, the strong positive contributions from the debt-to-equity and ebit_margin features support the model's confident prediction of GMED's healthy status.",gpt-4o-mini,276,200,0.000161,
+DV,2022,Healthy,Healthy,True,debt_to_equity,asset_turnover,ebit_margin,"Company: DV
+Fiscal year: 2022
+Model predicted class: Healthy
+Class probabilities: Healthy=0.87, At-Risk=0.12, Distressed=0.01
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- debt_to_equity: value=0.183, SHAP contribution=+2.283
+- asset_turnover: value=0.436, SHAP contribution=-1.123
+- ebit_margin: value=0.131, SHAP contribution=+0.391
+
+Write the analyst report now.","The model predicts that DV is in a healthy financial position with a high confidence level, as indicated by a probability of 87% for the healthy class. This positive outlook is primarily supported by a strong debt-to-equity ratio, which contributes significantly with a SHAP value of +2.283. This suggests that DV is effectively managing its leverage, reducing financial risk associated with high debt levels. 
+
+However, the asset turnover ratio, with a negative SHAP contribution of -1.123, indicates that the company may not be utilizing its assets as efficiently as it could be, which could hinder revenue generation. Despite this concern, the ebit margin contributes positively with a SHAP value of +0.391, suggesting that DV is maintaining healthy profitability relative to its revenue. Overall, while there are areas for improvement, the strong debt-to-equity ratio and positive ebit margin support the model's prediction of a healthy financial status for DV.",gpt-4o-mini,275,189,0.000155,
+TITN,2022,Healthy,Healthy,True,asset_turnover,debt_to_equity,current_ratio,"Company: TITN
+Fiscal year: 2022
+Model predicted class: Healthy
+Class probabilities: Healthy=0.73, At-Risk=0.26, Distressed=0.01
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=1.859, SHAP contribution=+2.469
+- debt_to_equity: value=1.216, SHAP contribution=-0.608
+- current_ratio: value=1.745, SHAP contribution=-0.341
+
+Write the analyst report now.","The model predicts that TITN is in a healthy financial state, with a probability of 73% for this classification. This confidence is primarily supported by the strong asset turnover ratio of 1.859, which contributes positively with a SHAP value of +2.469, indicating efficient use of assets to generate revenue. However, the outlook is somewhat tempered by the debt-to-equity ratio of 1.216, which has a negative SHAP contribution of -0.608, suggesting that the company's leverage may pose a risk. Additionally, the current ratio of 1.745 also contributes negatively with a SHAP value of -0.341, indicating potential liquidity concerns.
+
+Despite these negative contributions, the overall assessment remains optimistic, as the positive impact of asset turnover significantly outweighs the drawbacks from the debt-to-equity and current ratios. The model's prediction reflects a healthy status, but the credit committee should monitor the company's leverage and liquidity closely to ensure sustained financial stability.",gpt-4o-mini,274,196,0.000159,
+PAY,2021,Healthy,Healthy,True,debt_to_equity,asset_turnover,revenue_growth,"Company: PAY
+Fiscal year: 2021
+Model predicted class: Healthy
+Class probabilities: Healthy=0.66, At-Risk=0.31, Distressed=0.03
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- debt_to_equity: value=0.225, SHAP contribution=+1.597
+- asset_turnover: value=0.836, SHAP contribution=-0.553
+- revenue_growth: value=0.311, SHAP contribution=-0.223
+
+Write the analyst report now.","The model predicts that PAY is in a healthy financial state, with a confidence level of 66% in this classification. This positive outlook is primarily supported by the strong debt-to-equity ratio, which contributes significantly with a SHAP value of +1.597, indicating that the company is effectively managing its leverage. However, the asset turnover ratio, which has a negative SHAP contribution of -0.553, suggests that PAY may not be utilizing its assets as efficiently as it could be. Additionally, the revenue growth rate shows a negative contribution of -0.223, indicating potential challenges in expanding sales.
+
+Overall, while the model indicates a healthy status, the negative contributions from asset turnover and revenue growth highlight areas of concern that could impact future performance. The bank should consider these factors when assessing PAY's creditworthiness, as improving efficiency and revenue generation will be crucial for maintaining its healthy classification in the long term.",gpt-4o-mini,273,183,0.000151,
+WEYS,2024,Healthy,Healthy,True,debt_to_equity,ebit_margin,current_ratio,"Company: WEYS
+Fiscal year: 2024
+Model predicted class: Healthy
+Class probabilities: Healthy=0.93, At-Risk=0.06, Distressed=0.01
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- debt_to_equity: value=0.320, SHAP contribution=+1.180
+- ebit_margin: value=0.126, SHAP contribution=+0.384
+- current_ratio: value=4.430, SHAP contribution=+0.289
+
+Write the analyst report now.","The model predicts that WEYS is in a healthy financial position, with a high probability of 93% for this classification. This confidence is supported by several key factors, primarily the debt-to-equity ratio, which contributes positively with a SHAP value of +1.180. This indicates that the company's leverage is manageable, suggesting a lower risk of financial distress. Additionally, the ebit_margin, with a contribution of +0.384, reflects strong operational efficiency, while the current_ratio of 4.430 contributes +0.289, indicating ample liquidity to meet short-term obligations.
+
+Overall, the positive SHAP contributions from these features reinforce the model's healthy classification. The favorable debt-to-equity ratio suggests that WEYS is not overly reliant on debt financing, which is a strong indicator of financial stability. The solid ebit_margin and high current_ratio further support the outlook, demonstrating effective management of both profitability and liquidity. The model's high confidence level underscores the robustness of these findings, indicating a low likelihood of the company facing financial difficulties in the near term.",gpt-4o-mini,276,214,0.00017,
+NTIP,2024,Healthy,Healthy,True,debt_to_equity,ebit_margin,current_ratio,"Company: NTIP
+Fiscal year: 2024
+Model predicted class: Healthy
+Class probabilities: Healthy=0.89, At-Risk=0.02, Distressed=0.08
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- debt_to_equity: value=0.070, SHAP contribution=+2.965
+- ebit_margin: value=-21.018, SHAP contribution=-0.744
+- current_ratio: value=18.984, SHAP contribution=+0.519
+
+Write the analyst report now.","The model predicts that NTIP is in a Healthy state with a high confidence level, as indicated by a probability of 0.89. This positive outlook is primarily supported by the strong debt-to-equity ratio, which contributes significantly with a SHAP value of +2.965. A favorable debt-to-equity ratio suggests that the company is effectively managing its leverage, indicating financial stability and lower risk for creditors.
+
+However, the model also highlights some concerns, particularly with the ebit_margin, which has a SHAP contribution of -0.744. The negative value of -21.018 indicates that the company's earnings before interest and taxes are under pressure, which could impact profitability. Despite this, the current ratio of 18.984, contributing positively with a SHAP value of +0.519, suggests that NTIP has ample liquidity to cover its short-term obligations. Overall, while there are some challenges, the model's confidence in NTIP's healthy status is bolstered by its strong leverage management and liquidity position.",gpt-4o-mini,275,206,0.000165,
+ELA,2023,Healthy,Healthy,True,asset_turnover,current_ratio,size_bucket_micro,"Company: ELA
+Fiscal year: 2023
+Model predicted class: Healthy
+Class probabilities: Healthy=0.97, At-Risk=0.02, Distressed=0.01
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=2.385, SHAP contribution=+2.568
+- current_ratio: value=5.548, SHAP contribution=+0.311
+- size_bucket_micro: value=1.000, SHAP contribution=-0.209
+
+Write the analyst report now.","The model predicts that ELA is in a healthy financial position with a high confidence level, reflected in a probability of 97% for the Healthy class. The strong asset turnover ratio of 2.385 significantly contributes positively to this outlook, with a SHAP contribution of +2.568, indicating efficient use of assets to generate revenue. Additionally, the current ratio of 5.548 supports the prediction with a positive contribution of +0.311, suggesting that ELA is well-positioned to meet its short-term liabilities.
+
+However, the size_bucket_micro feature has a negative contribution of -0.209, which slightly detracts from the overall positive assessment. This indicates that being classified as a micro-sized company may introduce some challenges, potentially limiting growth opportunities compared to larger firms. Despite this, the overall positive contributions from asset turnover and current ratio reinforce a strong financial health outlook for ELA.",gpt-4o-mini,274,180,0.000149,
+GMED,2022,Healthy,Healthy,True,debt_to_equity,asset_turnover,ebit_margin,"Company: GMED
+Fiscal year: 2022
+Model predicted class: Healthy
+Class probabilities: Healthy=0.99, At-Risk=0.01, Distressed=0.00
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- debt_to_equity: value=0.124, SHAP contribution=+2.649
+- asset_turnover: value=0.493, SHAP contribution=-1.137
+- ebit_margin: value=0.231, SHAP contribution=+0.629
+
+Write the analyst report now.","The model predicts that GMED is in a healthy financial state, with a high confidence level reflected in the class probabilities of 99% for healthy, 1% for at-risk, and 0% for distressed. The positive SHAP contribution from the debt_to_equity ratio, which stands at 0.124, significantly supports this outlook, indicating that the company maintains a manageable level of debt relative to its equity, enhancing its financial stability. Additionally, the ebit_margin of 0.231 contributes positively, suggesting that GMED is effectively managing its operating expenses relative to its earnings.
+
+However, the asset_turnover ratio of 0.493 presents a negative SHAP contribution of -1.137, which detracts from the overall positive assessment. This indicates that GMED may not be utilizing its assets as efficiently as it could, which could hinder future growth potential. Despite this concern, the strong performance in debt management and operational profitability reinforces the model's confident prediction of a healthy status for GMED.",gpt-4o-mini,276,203,0.000163,
+CBIO,2023,At-Risk,At-Risk,True,net_margin,ebit_margin,debt_to_equity,"Company: CBIO
+Fiscal year: 2023
+Model predicted class: At-Risk
+Class probabilities: Healthy=0.32, At-Risk=0.35, Distressed=0.33
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- net_margin: value=-0.819, SHAP contribution=-0.388
+- ebit_margin: value=0.169, SHAP contribution=+0.232
+- debt_to_equity: value=0.485, SHAP contribution=+0.171
+
+Write the analyst report now.","The model predicts that CBIO is at risk, with a probability of 35% for this classification, indicating a level of uncertainty in its financial health. The top SHAP features reveal a mixed outlook. The significant negative contribution from net margin, which stands at -0.819, suggests that the company's profitability is under pressure, potentially due to high costs or low revenue. This factor notably worsens the overall outlook, pushing the model toward the at-risk classification.
+
+Conversely, the ebit margin, with a value of 0.169 and a positive SHAP contribution of +0.232, indicates that the company is managing its operating expenses effectively, which supports its financial position. Additionally, the debt-to-equity ratio at 0.485, with a positive contribution of +0.171, suggests a relatively balanced approach to leveraging, which is a favorable aspect in the context of financial stability. Overall, while there are some supportive factors, the negative impact of net margin raises concerns about CBIO's financial viability.",gpt-4o-mini,277,206,0.000165,
+CGNX,2023,At-Risk,At-Risk,True,asset_turnover,current_ratio,revenue_growth,"Company: CGNX
+Fiscal year: 2023
+Model predicted class: At-Risk
+Class probabilities: Healthy=0.30, At-Risk=0.67, Distressed=0.02
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=0.415, SHAP contribution=+0.383
+- current_ratio: value=4.471, SHAP contribution=-0.168
+- revenue_growth: value=-0.168, SHAP contribution=+0.099
+
+Write the analyst report now.","The model predicts that CGNX is at risk, with a class probability of 67%. This prediction is supported by the asset turnover ratio, which has a strong positive SHAP contribution of +0.383. This indicates that the company's efficiency in using its assets to generate revenue is a favorable factor in its outlook. However, the current ratio shows a negative SHAP contribution of -0.168, suggesting that despite a healthy liquidity position with a value of 4.471, there are concerns regarding the company's ability to manage short-term obligations effectively, which worsens the overall outlook.
+
+Additionally, revenue growth has a positive SHAP contribution of +0.099, but the actual value is negative at -0.168, indicating that the company is experiencing challenges in increasing its revenue. This combination of factors leads to a model that is confident in its prediction of being at risk, primarily due to the negative contributions from the current ratio and revenue growth, which overshadow the positive impact of asset turnover.",gpt-4o-mini,275,199,0.000161,
+BDC,2023,At-Risk,At-Risk,True,asset_turnover,debt_to_equity,net_margin,"Company: BDC
+Fiscal year: 2023
+Model predicted class: At-Risk
+Class probabilities: Healthy=0.01, At-Risk=0.97, Distressed=0.02
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=0.775, SHAP contribution=+0.376
+- debt_to_equity: value=1.778, SHAP contribution=+0.216
+- net_margin: value=0.097, SHAP contribution=+0.175
+
+Write the analyst report now.","The model predicts that BDC is at-risk, with a high probability of 97% for this classification. This prediction is supported by several financial metrics, particularly the asset turnover, which has a significant positive SHAP contribution of +0.376. This indicates that BDC is generating revenue efficiently relative to its assets, which is a positive sign. Additionally, the debt-to-equity ratio of 1.778 contributes positively (+0.216), suggesting that the company is managing its debt levels in a way that may not excessively burden its equity holders. The net margin, while positive at 0.097, also adds a favorable contribution of +0.175, indicating some profitability.
+
+Despite these positive contributions, the overall classification remains at-risk, suggesting that the model is confident in its prediction. The high probability of being classified as at-risk indicates that while certain metrics are performing well, there may be underlying issues or external factors affecting the company's overall financial health. The positive SHAP contributions highlight areas of strength, but they are not sufficient to offset the risks perceived by the model.",gpt-4o-mini,278,217,0.000172,
+NC,2022,At-Risk,At-Risk,True,asset_turnover,net_margin,size_bucket_micro,"Company: NC
+Fiscal year: 2022
+Model predicted class: At-Risk
+Class probabilities: Healthy=0.15, At-Risk=0.78, Distressed=0.07
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=0.425, SHAP contribution=+0.403
+- net_margin: value=0.307, SHAP contribution=+0.109
+- size_bucket_micro: value=1.000, SHAP contribution=-0.086
+
+Write the analyst report now.","The model predicts that NC is at risk, with a high probability of 78%, indicating significant concerns regarding its financial health. The model's confidence in this prediction is evident, given the low probability of being classified as healthy at only 15%. The top SHAP features contributing positively to this outlook are asset turnover and net margin. The asset turnover, with a value of 0.425 and a SHAP contribution of +0.403, suggests that the company is efficiently utilizing its assets to generate revenue, which is a positive sign. Additionally, the net margin of 0.307 and a SHAP contribution of +0.109 indicate that NC is maintaining a reasonable level of profitability relative to its revenue.
+
+However, the size_bucket_micro feature, with a value of 1.000 and a negative SHAP contribution of -0.086, detracts from the overall assessment. This suggests that the company's micro size may limit its access to resources and economies of scale, which could hinder growth and operational efficiency. Overall, while there are some positive indicators, the negative aspects significantly overshadow them, reinforcing the model's prediction that NC is at risk.",gpt-4o-mini,275,231,0.00018,
+CMG,2021,At-Risk,At-Risk,True,asset_turnover,debt_to_equity,net_margin,"Company: CMG
+Fiscal year: 2021
+Model predicted class: At-Risk
+Class probabilities: Healthy=0.04, At-Risk=0.94, Distressed=0.02
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=1.134, SHAP contribution=+0.330
+- debt_to_equity: value=1.896, SHAP contribution=+0.237
+- net_margin: value=0.086, SHAP contribution=+0.132
+
+Write the analyst report now.","The model predicts that CMG is at high risk, with a probability of 94% for being classified as At-Risk. This assessment is supported by the top SHAP features, which indicate positive contributions that push the prediction toward this classification. The asset turnover ratio of 1.134 contributes significantly (+0.330), suggesting that while the company generates revenue efficiently relative to its assets, this efficiency alone is not sufficient to mitigate overall risk. Additionally, the debt-to-equity ratio of 1.896 (+0.237) indicates a relatively high level of debt compared to equity, which could raise concerns about financial stability. The net margin of 0.086 (+0.132) reflects a modest profitability level, but it does not provide enough cushion against potential financial distress.
+
+Overall, the model's high confidence in the At-Risk classification is driven by these financial metrics, which, despite their positive contributions, highlight vulnerabilities in CMG's financial health. The combination of high debt levels and only modest profitability suggests that the company may struggle to navigate potential economic challenges, reinforcing the prediction of being at risk.",gpt-4o-mini,278,223,0.000175,
+LAWS,2022,At-Risk,At-Risk,True,asset_turnover,cost_growth,net_margin,"Company: LAWS
+Fiscal year: 2022
+Model predicted class: At-Risk
+Class probabilities: Healthy=0.01, At-Risk=0.86, Distressed=0.13
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=0.947, SHAP contribution=+0.299
+- cost_growth: value=1.181, SHAP contribution=-0.217
+- net_margin: value=0.006, SHAP contribution=+0.182
+
+Write the analyst report now.","The model predicts that LAWS is At-Risk, with a high probability of 86%. This indicates a significant concern regarding the company's financial health. The top SHAP feature contributing positively to this prediction is asset_turnover, which has a strong contribution of +0.299. This suggests that while the company is generating revenue relative to its assets, it is not enough to offset the negative impact of other factors.
+
+Cost_growth, with a contribution of -0.217, indicates that rising costs are a significant concern, exacerbating the risk profile of LAWS. Additionally, the net_margin, although contributing positively with +0.182, remains extremely low at 0.006, suggesting that profit margins are insufficient to support a healthy financial outlook. Overall, the model is confident in its prediction, highlighting that while asset turnover provides some support, the adverse effects of cost growth and minimal net margins significantly worsen the company's outlook.",gpt-4o-mini,275,185,0.000152,
+ITCI,2024,At-Risk,At-Risk,True,cost_growth,ebit_margin,asset_turnover,"Company: ITCI
+Fiscal year: 2024
+Model predicted class: At-Risk
+Class probabilities: Healthy=0.23, At-Risk=0.71, Distressed=0.05
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- cost_growth: value=0.279, SHAP contribution=+0.189
+- ebit_margin: value=-0.171, SHAP contribution=+0.183
+- asset_turnover: value=0.498, SHAP contribution=+0.183
+
+Write the analyst report now.","The model predicts that ITCI is at risk, with a high probability of 71% for this classification, indicating a level of uncertainty regarding its financial health. The top SHAP feature contributing positively to this outlook is cost growth, which, despite its value of 0.279, has a significant positive SHAP contribution of +0.189, suggesting that rising costs are being managed effectively relative to the company's revenue. Additionally, the ebit margin, although negative at -0.171, also contributes positively with a SHAP value of +0.183, indicating that operational efficiency may still be supporting profitability despite the margin's decline. 
+
+However, the asset turnover ratio, at a value of 0.498, also contributes positively with a SHAP contribution of +0.183, reflecting the company's ability to generate sales from its assets. While these positive contributions suggest some strengths, the overall classification as at-risk signals that ITCI must address its financial challenges proactively, particularly in managing costs and improving its ebit margin to enhance its outlook.",gpt-4o-mini,277,210,0.000168,
+AKAM,2023,At-Risk,At-Risk,True,net_margin,debt_to_equity,asset_turnover,"Company: AKAM
+Fiscal year: 2023
+Model predicted class: At-Risk
+Class probabilities: Healthy=0.01, At-Risk=0.79, Distressed=0.20
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- net_margin: value=0.144, SHAP contribution=+0.168
+- debt_to_equity: value=1.153, SHAP contribution=+0.145
+- asset_turnover: value=0.385, SHAP contribution=+0.087
+
+Write the analyst report now.","The model predicts that AKAM is at risk, with a high probability of 79% for this classification. This indicates a significant concern regarding the company's financial health, despite some positive contributions from key metrics. The net margin, with a SHAP contribution of +0.168, suggests that profitability is a supportive factor, which could help stabilize the company's outlook. Additionally, the debt-to-equity ratio, contributing +0.145, indicates a manageable level of debt relative to equity, which is a positive sign for financial leverage. Lastly, the asset turnover ratio, with a contribution of +0.087, reflects an efficient use of assets to generate revenue.
+
+While these positive SHAP contributions provide some support, the overall classification of ""At-Risk"" underscores a prevailing uncertainty about AKAM's financial stability. The low probability of being classified as healthy at just 1% further emphasizes the need for caution. The bank should closely monitor these metrics and consider the broader economic context before making lending decisions.",gpt-4o-mini,278,200,0.000162,
+UEIC,2024,At-Risk,At-Risk,True,asset_turnover,debt_to_equity,net_margin,"Company: UEIC
+Fiscal year: 2024
+Model predicted class: At-Risk
+Class probabilities: Healthy=0.01, At-Risk=0.80, Distressed=0.19
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=1.221, SHAP contribution=+0.226
+- debt_to_equity: value=1.112, SHAP contribution=+0.170
+- net_margin: value=-0.061, SHAP contribution=+0.168
+
+Write the analyst report now.","The machine-learning model has classified UEIC as ""At-Risk,"" with a high probability of 80%. This prediction reflects significant concerns regarding the company's financial health. The model's confidence in this classification is evident, as the probabilities for the ""Healthy"" and ""Distressed"" classes are much lower at 1% and 19%, respectively. 
+
+Three key SHAP features contribute to this outlook. The positive contributions from asset_turnover (+0.226) and debt_to_equity (+0.170) indicate that UEIC is effectively utilizing its assets and maintaining a manageable level of debt relative to equity, which supports its financial stability. However, the net_margin feature, despite its positive contribution (+0.168), has a negative value of -0.061, suggesting that profit margins are under pressure. This combination of factors, particularly the low net margin, worsens the overall outlook, reinforcing the model's prediction of UEIC being at risk.",gpt-4o-mini,278,192,0.000157,
+LAZY,2022,At-Risk,At-Risk,True,debt_to_equity,net_margin,ebit_margin,"Company: LAZY
+Fiscal year: 2022
+Model predicted class: At-Risk
+Class probabilities: Healthy=0.14, At-Risk=0.86, Distressed=0.01
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- debt_to_equity: value=1.845, SHAP contribution=+0.323
+- net_margin: value=0.050, SHAP contribution=+0.188
+- ebit_margin: value=0.068, SHAP contribution=+0.148
+
+Write the analyst report now.","The model predicts that LAZY is At-Risk, with a high probability of 86%, indicating significant concerns about its financial health. The confidence in this classification is clear, as the probabilities for the other classes—Healthy at 14% and Distressed at just 1%—further emphasize the precarious situation. 
+
+The top SHAP features contributing positively to this outlook include a high debt-to-equity ratio of 1.845, which suggests a reliance on debt financing that could strain cash flow. Additionally, while the net margin of 0.050 and the ebit margin of 0.068 are positive, they are relatively low, indicating limited profitability. These factors collectively worsen the outlook for LAZY, reinforcing the model's prediction of being At-Risk.",gpt-4o-mini,278,157,0.000136,
+COMP,2021,At-Risk,At-Risk,True,asset_turnover,net_margin,cost_growth,"Company: COMP
+Fiscal year: 2021
+Model predicted class: At-Risk
+Class probabilities: Healthy=0.27, At-Risk=0.37, Distressed=0.36
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=3.204, SHAP contribution=-1.272
+- net_margin: value=-0.077, SHAP contribution=+0.307
+- cost_growth: value=0.736, SHAP contribution=+0.163
+
+Write the analyst report now.","The model predicts that COMP is at risk, with a probability of 37% for this classification, indicating a level of uncertainty in its financial health. The top SHAP feature contributing negatively to this outlook is asset turnover, which has a value of 3.204 but a significant negative contribution of -1.272. This suggests that the company is not utilizing its assets efficiently to generate revenue, which is a concerning indicator for its operational effectiveness.
+
+Conversely, the net margin shows a slight positive contribution of +0.307 despite being negative at -0.077, indicating that while profitability is currently low, it does provide some support to the overall assessment. Additionally, cost growth, with a value of 0.736 and a contribution of +0.163, suggests that the company is managing its costs reasonably well, which could help mitigate some risks. Overall, while there are some positive aspects, the negative influence of asset turnover significantly worsens COMP's outlook, reinforcing the model's classification of at-risk.",gpt-4o-mini,274,203,0.000163,
+CMG,2022,At-Risk,At-Risk,True,asset_turnover,debt_to_equity,net_margin,"Company: CMG
+Fiscal year: 2022
+Model predicted class: At-Risk
+Class probabilities: Healthy=0.11, At-Risk=0.87, Distressed=0.02
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=1.246, SHAP contribution=+0.327
+- debt_to_equity: value=1.925, SHAP contribution=+0.234
+- net_margin: value=0.104, SHAP contribution=+0.172
+
+Write the analyst report now.","The model has predicted that CMG is at-risk, with a high probability of 87% for this classification, indicating a strong level of uncertainty regarding the company's financial health. The top SHAP features contributing positively to this prediction include asset turnover, debt to equity, and net margin, which collectively suggest areas of concern that could exacerbate the company's risk profile.
+
+The asset turnover ratio of 1.246 contributes positively with a SHAP value of +0.327, indicating that while the company is generating revenue effectively relative to its assets, this alone is insufficient to counterbalance the overall risk. The debt to equity ratio of 1.925, with a contribution of +0.234, suggests that CMG is heavily leveraged, which can lead to increased financial strain. Lastly, the net margin of 0.104, contributing +0.172, indicates that profitability is limited. Overall, these factors highlight significant vulnerabilities in CMG's financial structure, reinforcing the model's prediction of being at-risk.",gpt-4o-mini,278,202,0.000163,
+REPX,2024,At-Risk,At-Risk,True,ebit_margin,gross_margin,asset_turnover,"Company: REPX
+Fiscal year: 2024
+Model predicted class: At-Risk
+Class probabilities: Healthy=0.05, At-Risk=0.80, Distressed=0.16
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- ebit_margin: value=0.480, SHAP contribution=+0.230
+- gross_margin: value=0.964, SHAP contribution=-0.216
+- asset_turnover: value=0.413, SHAP contribution=+0.212
+
+Write the analyst report now.","The model predicts that REPX is at risk, with an 80% probability of this classification, indicating a high level of uncertainty regarding the company's financial health. The top SHAP feature contributing positively to this outlook is the ebit_margin, which has a value of 0.480 and a SHAP contribution of +0.230. This suggests that while the company maintains a reasonable level of earnings relative to its revenue, it is not enough to offset other negative indicators.
+
+Conversely, the gross_margin, valued at 0.964, has a substantial negative SHAP contribution of -0.216, indicating that high costs relative to sales are significantly worsening the company's financial outlook. Additionally, the asset_turnover, with a value of 0.413 and a positive contribution of +0.212, suggests that the company is somewhat efficient in utilizing its assets to generate revenue, but this efficiency alone cannot mitigate the overall at-risk classification.",gpt-4o-mini,276,189,0.000155,
+COP,2023,At-Risk,At-Risk,True,asset_turnover,debt_to_equity,cost_growth,"Company: COP
+Fiscal year: 2023
+Model predicted class: At-Risk
+Class probabilities: Healthy=0.03, At-Risk=0.93, Distressed=0.04
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=0.608, SHAP contribution=+0.371
+- debt_to_equity: value=0.947, SHAP contribution=+0.257
+- cost_growth: value=-0.223, SHAP contribution=-0.253
+
+Write the analyst report now.","The model predicts that COP is at high risk, with a probability of 93% for being classified as At-Risk. This strong prediction indicates significant concerns regarding the company's financial health. The top SHAP feature, asset_turnover, contributes positively with a value of 0.608 and a SHAP contribution of +0.371, suggesting that the company's efficiency in generating revenue from its assets is somewhat supportive of its outlook. Additionally, the debt_to_equity ratio of 0.947, with a SHAP contribution of +0.257, indicates a relatively stable leverage position, which can be seen as a positive factor.
+
+However, the negative contribution from cost_growth, valued at -0.223 with a SHAP contribution of -0.253, highlights a concerning trend in rising costs that could further deteriorate the company's financial situation. This combination of positive and negative factors leads to an overall uncertain outlook, with the model indicating that the positives are insufficient to offset the risks associated with increasing costs.",gpt-4o-mini,276,202,0.000163,
+MSI,2023,At-Risk,At-Risk,True,debt_to_equity,asset_turnover,ebit_margin,"Company: MSI
+Fiscal year: 2023
+Model predicted class: At-Risk
+Class probabilities: Healthy=0.05, At-Risk=0.62, Distressed=0.33
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- debt_to_equity: value=17.046, SHAP contribution=-0.887
+- asset_turnover: value=0.748, SHAP contribution=+0.285
+- ebit_margin: value=0.230, SHAP contribution=+0.134
+
+Write the analyst report now.","The model predicts that MSI is At-Risk, with a probability of 62%, indicating a high level of uncertainty regarding its financial health. The top SHAP feature contributing negatively to this outlook is the debt_to_equity ratio, which stands at 17.046 and has a significant negative impact of -0.887. This high level of debt relative to equity raises concerns about the company's financial leverage and its ability to manage obligations, thus worsening the overall outlook.
+
+Conversely, the asset_turnover ratio of 0.748 and the ebit_margin of 0.230 provide some support to the model's prediction, with positive contributions of +0.285 and +0.134, respectively. These metrics suggest that MSI is generating reasonable revenue relative to its assets and maintaining a modest margin on earnings before interest and taxes. However, despite these positive aspects, the overwhelming influence of the high debt_to_equity ratio indicates a precarious financial position, leading to the overall classification of At-Risk.",gpt-4o-mini,277,201,0.000162,
+MMS,2023,At-Risk,At-Risk,True,asset_turnover,debt_to_equity,net_margin,"Company: MMS
+Fiscal year: 2023
+Model predicted class: At-Risk
+Class probabilities: Healthy=0.01, At-Risk=0.98, Distressed=0.01
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=1.231, SHAP contribution=+0.330
+- debt_to_equity: value=1.390, SHAP contribution=+0.232
+- net_margin: value=0.033, SHAP contribution=+0.161
+
+Write the analyst report now.","The machine-learning model predicts that MMS is at high risk, with a probability of 98% for the At-Risk class. This indicates strong uncertainty regarding the company's financial health. The top SHAP features contributing positively to this prediction include asset turnover, debt to equity, and net margin. Specifically, the asset turnover of 1.231 contributes positively by 0.330, suggesting that while the company generates revenue efficiently relative to its assets, this alone is not enough to mitigate the overall risk. 
+
+Moreover, the debt to equity ratio of 1.390 adds a positive contribution of 0.232, indicating a moderate level of leverage, which could be a concern if market conditions worsen. Lastly, the net margin of 0.033, with a contribution of 0.161, reflects thin profitability, further compounding the risks. Collectively, these factors suggest that despite some positive indicators, MMS's financial outlook remains precarious, warranting caution from the credit committee.",gpt-4o-mini,277,198,0.00016,
+YETI,2022,At-Risk,At-Risk,True,net_margin,debt_to_equity,asset_turnover,"Company: YETI
+Fiscal year: 2022
+Model predicted class: At-Risk
+Class probabilities: Healthy=0.18, At-Risk=0.81, Distressed=0.01
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- net_margin: value=0.056, SHAP contribution=+0.195
+- debt_to_equity: value=1.045, SHAP contribution=+0.195
+- asset_turnover: value=1.482, SHAP contribution=+0.139
+
+Write the analyst report now.","The model predicts that YETI is at-risk, with a high probability of 81% for this classification, indicating significant concerns about the company's financial health. The model is confident in this prediction, as evidenced by the low probabilities assigned to the healthy and distressed classes. The top SHAP features contributing positively to this outlook include net margin, debt to equity, and asset turnover. Notably, the net margin of 0.056, with a SHAP contribution of +0.195, suggests that while profitability is present, it may not be sufficient to offset other risks. 
+
+However, the positive contributions from debt to equity and asset turnover, both at 1.045 and 1.482 respectively, indicate that the company is leveraging its assets effectively and maintaining a reasonable level of debt relative to equity. While these factors provide some support, the overall at-risk classification underscores the need for caution. The combination of these metrics suggests that despite some positive attributes, YETI faces significant challenges that could impact its financial stability moving forward.",gpt-4o-mini,279,208,0.000167,
+WWW,2024,At-Risk,At-Risk,True,asset_turnover,cost_growth,debt_to_equity,"Company: WWW
+Fiscal year: 2024
+Model predicted class: At-Risk
+Class probabilities: Healthy=0.02, At-Risk=0.87, Distressed=0.11
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=1.048, SHAP contribution=+0.288
+- cost_growth: value=-0.251, SHAP contribution=-0.235
+- debt_to_equity: value=4.198, SHAP contribution=+0.171
+
+Write the analyst report now.","The model predicts that WWW is at risk, with a high probability of 87% for this classification, indicating strong confidence in the assessment. The top SHAP feature contributing positively to this outlook is asset turnover, which has a value of 1.048 and a significant positive SHAP contribution of +0.288. This suggests that the company is effectively utilizing its assets to generate revenue, which is a positive indicator for its operational efficiency.
+
+However, the negative contribution from cost growth, valued at -0.251 and contributing -0.235 to the model, raises concerns about rising expenses that could impact profitability. Additionally, the debt-to-equity ratio of 4.198, while contributing positively with a SHAP value of +0.171, indicates a high level of leverage that may exacerbate financial risk. Together, these factors underline a precarious financial position for WWW, with operational strengths overshadowed by cost pressures and significant debt levels.",gpt-4o-mini,276,190,0.000155,
+UEIC,2021,At-Risk,At-Risk,True,asset_turnover,debt_to_equity,net_margin,"Company: UEIC
+Fiscal year: 2021
+Model predicted class: At-Risk
+Class probabilities: Healthy=0.02, At-Risk=0.95, Distressed=0.04
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=1.179, SHAP contribution=+0.273
+- debt_to_equity: value=0.849, SHAP contribution=+0.270
+- net_margin: value=0.009, SHAP contribution=+0.176
+
+Write the analyst report now.","The model predicts that UEIC is at-risk, with a high probability of 95% for this classification, indicating significant uncertainty regarding its financial health. The top SHAP features contributing positively to this prediction include asset turnover, debt to equity, and net margin. The asset turnover ratio of 1.179 suggests that UEIC is generating a reasonable amount of revenue from its assets, which is a positive sign. Similarly, a debt-to-equity ratio of 0.849 indicates a relatively balanced approach to leveraging, which supports its financial stability. However, the net margin of 0.009 is quite low, suggesting that profitability is limited, which could be a concern for future performance.
+
+Despite these positive contributions, the overall outlook remains concerning due to the model's classification of at-risk. The low net margin indicates that while UEIC is managing its assets and liabilities reasonably well, it is struggling to convert sales into profit effectively. This combination of factors leads to the conclusion that while there are some strengths in asset management and leverage, the company's financial health is precarious, warranting close monitoring by the credit committee.",gpt-4o-mini,278,223,0.000175,
+CNHI,2023,At-Risk,At-Risk,True,net_margin,ebit_margin,asset_turnover,"Company: CNHI
+Fiscal year: 2023
+Model predicted class: At-Risk
+Class probabilities: Healthy=0.01, At-Risk=0.57, Distressed=0.42
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- net_margin: value=0.092, SHAP contribution=+0.147
+- ebit_margin: value=0.200, SHAP contribution=+0.134
+- asset_turnover: value=0.534, SHAP contribution=+0.120
+
+Write the analyst report now.","The model predicts that CNHI is at risk, with a probability of 57% for this classification. This prediction indicates a level of uncertainty regarding the company's financial health, as the probabilities for both healthy and distressed classifications are low. Despite the overall at-risk classification, several financial metrics show positive contributions that could support the company's outlook.
+
+The net margin, with a SHAP contribution of +0.147, suggests that CNHI's profitability is relatively strong, which can be a positive indicator for future performance. Additionally, the ebit margin of 0.200 and its contribution of +0.134 further reinforce this notion, highlighting the company's operational efficiency. Lastly, the asset turnover ratio of 0.534, contributing +0.120, indicates effective utilization of assets to generate revenue. While these positive features provide some support, the overall at-risk classification signals that CNHI must address underlying issues to improve its financial stability.",gpt-4o-mini,277,185,0.000153,
+A21,2021,At-Risk,At-Risk,True,asset_turnover,debt_to_equity,cost_growth,"Company: A21
+Fiscal year: 2021
+Model predicted class: At-Risk
+Class probabilities: Healthy=0.04, At-Risk=0.50, Distressed=0.47
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=0.068, SHAP contribution=-0.327
+- debt_to_equity: value=0.506, SHAP contribution=+0.255
+- cost_growth: value=-0.464, SHAP contribution=-0.177
+
+Write the analyst report now.","The model predicts that A21 is at risk, with a probability of 50% for this classification, indicating a level of uncertainty in its financial health. The top SHAP feature, asset turnover, has a significant negative contribution of -0.327, suggesting that the company's efficiency in generating revenue from its assets is a concern, which worsens its outlook. Additionally, cost growth, with a negative SHAP contribution of -0.177, indicates that rising costs are further straining the company's financial position.
+
+Conversely, the debt-to-equity ratio shows a positive contribution of +0.255, suggesting that A21's leverage is relatively manageable, which provides some support to its financial stability. However, the overall assessment remains cautious due to the substantial negative impacts from asset turnover and cost growth. The model's mixed signals reflect the need for careful monitoring and potential intervention to improve A21's financial standing.",gpt-4o-mini,276,182,0.000151,
+CTV,2021,At-Risk,At-Risk,True,debt_to_equity,gross_margin,ebit_margin,"Company: CTV
+Fiscal year: 2021
+Model predicted class: At-Risk
+Class probabilities: Healthy=0.06, At-Risk=0.90, Distressed=0.04
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- debt_to_equity: value=0.275, SHAP contribution=+0.484
+- gross_margin: value=0.804, SHAP contribution=+0.297
+- ebit_margin: value=-0.065, SHAP contribution=+0.255
+
+Write the analyst report now.","The model predicts that CTV is at high risk, with a probability of 90% for being classified as At-Risk. This prediction reflects a strong level of confidence, as indicated by the low probabilities of being classified as Healthy (6%) or Distressed (4%). The top SHAP feature contributing positively to this risk classification is the debt_to_equity ratio, which stands at 0.275 and has a significant SHAP contribution of +0.484. This suggests that the company’s leverage is a concern, potentially limiting its financial flexibility.
+
+Additionally, the gross_margin of 0.804, with a SHAP contribution of +0.297, supports the outlook by indicating that CTV maintains a reasonable level of profitability relative to its sales. However, the ebit_margin, with a value of -0.065 and a positive SHAP contribution of +0.255, implies that while there is some operational efficiency, it is not strong enough to offset the risks associated with high leverage. Overall, these factors collectively indicate a challenging financial position for CTV.",gpt-4o-mini,278,216,0.000171,
+ALKS,2023,At-Risk,At-Risk,True,debt_to_equity,asset_turnover,opex_ratio,"Company: ALKS
+Fiscal year: 2023
+Model predicted class: At-Risk
+Class probabilities: Healthy=0.09, At-Risk=0.84, Distressed=0.07
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- debt_to_equity: value=0.776, SHAP contribution=+0.279
+- asset_turnover: value=0.779, SHAP contribution=+0.253
+- opex_ratio: value=0.599, SHAP contribution=-0.175
+
+Write the analyst report now.","The model predicts that ALKS is at risk, with an 84% probability of being classified as such, indicating a high level of uncertainty regarding the company's financial health. The top SHAP feature contributions highlight both strengths and weaknesses in ALKS's financial profile. The debt-to-equity ratio, with a positive SHAP contribution of 0.279, suggests that the company is managing its leverage effectively, which supports its outlook. Similarly, the asset turnover ratio, contributing positively with 0.253, indicates efficient use of assets to generate revenue.
+
+However, the opex ratio presents a concern, with a negative SHAP contribution of -0.175. This suggests that operational expenses are relatively high compared to revenues, which could worsen the company's financial situation and contribute to its at-risk classification. Overall, while there are some positive indicators, the combination of high operational expenses and the overall classification as at-risk reflects significant challenges for ALKS moving forward.",gpt-4o-mini,278,190,0.000156,
+TITN,2024,At-Risk,At-Risk,True,debt_to_equity,asset_turnover,net_margin,"Company: TITN
+Fiscal year: 2024
+Model predicted class: At-Risk
+Class probabilities: Healthy=0.03, At-Risk=0.94, Distressed=0.03
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- debt_to_equity: value=1.954, SHAP contribution=+0.247
+- asset_turnover: value=1.490, SHAP contribution=+0.238
+- net_margin: value=-0.014, SHAP contribution=+0.178
+
+Write the analyst report now.","The model predicts that TITN is at risk, with a high probability of 94% for this classification. This assessment is supported by the debt-to-equity ratio of 1.954, which positively contributes +0.247 to the prediction. A high debt-to-equity ratio indicates that the company is heavily leveraged, which could lead to financial instability if not managed properly. Additionally, the asset turnover ratio of 1.490 also contributes positively (+0.238), suggesting that the company is effectively utilizing its assets to generate revenue, which is a favorable sign in terms of operational efficiency.
+
+However, the net margin of -0.014, despite its positive SHAP contribution of +0.178, indicates that the company's profitability is under pressure. This negative margin suggests that while the company may be generating revenue, it is not doing so profitably, which worsens the outlook. Overall, the model's confidence in the at-risk classification reflects significant concerns regarding TITN's financial health, primarily driven by its high leverage and profitability challenges.",gpt-4o-mini,278,209,0.000167,
+CMG,2024,At-Risk,At-Risk,True,asset_turnover,debt_to_equity,net_margin,"Company: CMG
+Fiscal year: 2024
+Model predicted class: At-Risk
+Class probabilities: Healthy=0.31, At-Risk=0.68, Distressed=0.01
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=1.229, SHAP contribution=+0.290
+- debt_to_equity: value=1.518, SHAP contribution=+0.258
+- net_margin: value=0.136, SHAP contribution=+0.136
+
+Write the analyst report now.","The model predicts that CMG is at risk, with a probability of 68% for this classification, indicating a high level of uncertainty regarding its financial health. The top SHAP features contributing positively to this prediction include asset turnover, debt to equity, and net margin. The asset turnover ratio of 1.229 suggests that CMG is effectively utilizing its assets to generate revenue, contributing +0.290 to the model's prediction. Similarly, a debt to equity ratio of 1.518 indicates a manageable level of debt relative to equity, adding +0.258 to the risk assessment. Lastly, a net margin of 0.136 shows that CMG is maintaining a reasonable profit margin, contributing +0.136.
+
+Despite these positive contributions, the overall outlook remains concerning as the model indicates a significant risk of distress. The combination of these metrics suggests that while CMG has some strengths, such as efficient asset use and manageable debt levels, the underlying risks are substantial enough to classify the company as at risk. The credit committee should consider these factors carefully when evaluating CMG's financial stability.",gpt-4o-mini,278,220,0.000174,
+INTA,2024,Distressed,Distressed,True,ebit_margin,net_margin,asset_turnover,"Company: INTA
+Fiscal year: 2024
+Model predicted class: Distressed
+Class probabilities: Healthy=0.00, At-Risk=0.05, Distressed=0.95
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- ebit_margin: value=-0.075, SHAP contribution=+0.886
+- net_margin: value=-0.074, SHAP contribution=+0.507
+- asset_turnover: value=0.587, SHAP contribution=+0.418
+
+Write the analyst report now.","The model predicts that INTA is in a distressed state with a high probability of 95%. This prediction is supported by the top SHAP features, particularly the ebit_margin, which has a significant positive contribution of +0.886 despite its negative value of -0.075. This suggests that while the company's earnings before interest and taxes margin is low, it is still a critical factor pushing the model toward the distressed classification. Similarly, the net_margin, with a SHAP contribution of +0.507, reinforces the negative outlook, indicating that the company's profitability is under pressure.
+
+Additionally, the asset_turnover ratio, with a value of 0.587 and a SHAP contribution of +0.418, contributes positively but is not enough to offset the negative signals from the other features. The overall model confidence is high, indicating a strong consensus on the distress prediction. The combination of low margins and inadequate asset utilization worsens the outlook for INTA, highlighting significant financial challenges ahead.",gpt-4o-mini,276,199,0.000161,
+BAND,2021,Distressed,Distressed,True,debt_to_equity,asset_turnover,ebit_margin,"Company: BAND
+Fiscal year: 2021
+Model predicted class: Distressed
+Class probabilities: Healthy=0.00, At-Risk=0.09, Distressed=0.91
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- debt_to_equity: value=1.583, SHAP contribution=+0.972
+- asset_turnover: value=0.461, SHAP contribution=+0.927
+- ebit_margin: value=-0.005, SHAP contribution=+0.528
+
+Write the analyst report now.","The model predicts that BAND is in a distressed state with a high probability of 91%, indicating strong confidence in this assessment. The top contributing feature, debt_to_equity, has a value of 1.583 and a SHAP contribution of +0.972, suggesting that the company’s high leverage is a significant factor pushing it toward distress. Additionally, the asset_turnover ratio of 0.461, with a SHAP contribution of +0.927, indicates that BAND is not efficiently utilizing its assets to generate revenue, further exacerbating its financial challenges.
+
+Despite the negative contribution from the ebit_margin, which is at -0.005 but still contributes positively with +0.528, the overall outlook remains concerning. The combination of high debt levels and low asset efficiency signals potential liquidity issues, leading to the model's strong prediction of distress. This analysis suggests that BAND's financial health is precarious, and immediate attention may be required to address these underlying issues.",gpt-4o-mini,277,196,0.000159,
+PD,2022,Distressed,Distressed,True,ebit_margin,debt_to_equity,asset_turnover,"Company: PD
+Fiscal year: 2022
+Model predicted class: Distressed
+Class probabilities: Healthy=0.00, At-Risk=0.00, Distressed=1.00
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- ebit_margin: value=-0.349, SHAP contribution=+1.133
+- debt_to_equity: value=2.378, SHAP contribution=+1.131
+- asset_turnover: value=0.453, SHAP contribution=+0.725
+
+Write the analyst report now.","The model predicts that PD is in a distressed state, with a high confidence level indicated by a probability of 1.00 for this classification. The top SHAP feature contributing positively to this prediction is the ebit_margin, which, despite its negative value of -0.349, has a significant positive SHAP contribution of +1.133. This suggests that the company's earnings before interest and taxes relative to its revenue are not sufficient to support a healthy financial position. Additionally, the debt_to_equity ratio of 2.378, which also has a positive SHAP contribution of +1.131, indicates that the company is heavily leveraged, further exacerbating its financial distress. 
+
+Moreover, the asset_turnover ratio of 0.453, with a positive SHAP contribution of +0.725, suggests that the company is struggling to generate revenue from its assets effectively. Overall, these factors collectively worsen the outlook for PD, reinforcing the prediction of distress and highlighting the urgent need for strategic financial intervention.",gpt-4o-mini,277,203,0.000163,
+BILL,2024,Distressed,Distressed,True,asset_turnover,debt_to_equity,ebit_margin,"Company: BILL
+Fiscal year: 2024
+Model predicted class: Distressed
+Class probabilities: Healthy=0.00, At-Risk=0.01, Distressed=0.99
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=0.141, SHAP contribution=+1.708
+- debt_to_equity: value=1.220, SHAP contribution=+0.768
+- ebit_margin: value=-0.067, SHAP contribution=+0.670
+
+Write the analyst report now.","The model predicts that BILL is in a distressed state, with a high probability of 99% for this classification. This strong prediction indicates a high level of uncertainty regarding the company's financial health. The top SHAP feature contributing positively to this outlook is asset turnover, which has a significant contribution of +1.708. This suggests that while the company is generating revenue relative to its assets, it may not be doing so efficiently enough to offset other negative indicators.
+
+Another positive contributor is the debt-to-equity ratio, with a SHAP contribution of +0.768, indicating that the company is managing its leverage reasonably well. However, the ebit margin, with a negative value of -0.067 and a contribution of +0.670, suggests that profitability is under pressure, which worsens the overall outlook. The combination of these factors leads to a concerning financial picture, emphasizing the need for caution in any credit decisions regarding BILL.",gpt-4o-mini,277,187,0.000154,
+STIM,2024,Distressed,Distressed,True,ebit_margin,debt_to_equity,net_margin,"Company: STIM
+Fiscal year: 2024
+Model predicted class: Distressed
+Class probabilities: Healthy=0.00, At-Risk=0.00, Distressed=1.00
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- ebit_margin: value=-0.462, SHAP contribution=+1.264
+- debt_to_equity: value=3.431, SHAP contribution=+1.011
+- net_margin: value=-0.584, SHAP contribution=+0.636
+
+Write the analyst report now.","The model predicts that STIM is in a distressed state, with a confidence level of 100%, as indicated by the class probabilities showing no chance of being classified as healthy or at-risk. The top SHAP feature contributions reveal critical insights into the company's financial health. The ebit_margin, despite its negative value of -0.462, has a significant positive SHAP contribution of +1.264, suggesting that the company's earnings before interest and taxes are not providing sufficient support to counterbalance other negative indicators. 
+
+Additionally, the debt_to_equity ratio stands at 3.431, contributing positively with a SHAP value of +1.011, indicating high leverage which is a concern for financial stability. The net_margin, with a value of -0.584 and a SHAP contribution of +0.636, further emphasizes the company's struggles in profitability. Overall, these factors collectively worsen the outlook for STIM, reinforcing the model's prediction of distress.",gpt-4o-mini,277,193,0.000157,
+BASE,2021,Distressed,Distressed,True,ebit_margin,net_margin,opex_ratio,"Company: BASE
+Fiscal year: 2021
+Model predicted class: Distressed
+Class probabilities: Healthy=0.00, At-Risk=0.02, Distressed=0.98
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- ebit_margin: value=-0.455, SHAP contribution=+1.225
+- net_margin: value=-0.471, SHAP contribution=+0.915
+- opex_ratio: value=1.336, SHAP contribution=+0.340
+
+Write the analyst report now.","The model predicts that BASE is in a distressed state with a high confidence level, as evidenced by a 98% probability of distress. The top SHAP features contributing to this prediction highlight significant financial challenges. The ebit_margin and net_margin both show negative values, indicating that the company is struggling with profitability. Specifically, the ebit_margin of -0.455 and net_margin of -0.471 suggest that BASE is not generating sufficient earnings relative to its revenue, which is a critical concern for its financial health.
+
+On the other hand, the opex_ratio, with a value of 1.336, contributes positively to the distress prediction. This indicates that BASE is likely facing high operating expenses relative to its revenue, further exacerbating its financial difficulties. The combination of these factors reinforces the model's prediction of distress, highlighting the urgent need for the credit committee to consider the potential risks associated with lending to BASE.",gpt-4o-mini,275,184,0.000152,
+MSGM,2021,Distressed,Distressed,True,ebit_margin,net_margin,debt_to_equity,"Company: MSGM
+Fiscal year: 2021
+Model predicted class: Distressed
+Class probabilities: Healthy=0.00, At-Risk=0.04, Distressed=0.96
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- ebit_margin: value=-2.269, SHAP contribution=+1.209
+- net_margin: value=-2.200, SHAP contribution=+1.004
+- debt_to_equity: value=0.335, SHAP contribution=-0.860
+
+Write the analyst report now.","The model predicts that MSGM is in a distressed state with a high probability of 96%. This prediction is supported by the positive contributions from the ebit_margin and net_margin features, which indicate that while the company is experiencing negative margins, these figures are less detrimental than they could be, contributing positively to the distress classification. Specifically, the ebit_margin of -2.269 and net_margin of -2.200 suggest significant operational challenges, but their SHAP contributions of +1.209 and +1.004, respectively, imply some level of resilience in profitability metrics.
+
+Conversely, the debt_to_equity ratio of 0.335 has a negative SHAP contribution of -0.860, which worsens the outlook by indicating that MSGM's leverage is a concern. This high debt relative to equity can strain financial stability, particularly in a distressed scenario. Overall, the model's confidence in the distressed classification is evident, driven by the interplay of these financial metrics.",gpt-4o-mini,276,197,0.00016,
+STIM,2022,Distressed,Distressed,True,ebit_margin,net_margin,debt_to_equity,"Company: STIM
+Fiscal year: 2022
+Model predicted class: Distressed
+Class probabilities: Healthy=0.00, At-Risk=0.00, Distressed=0.99
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- ebit_margin: value=-0.538, SHAP contribution=+1.388
+- net_margin: value=-0.570, SHAP contribution=+0.859
+- debt_to_equity: value=1.048, SHAP contribution=+0.380
+
+Write the analyst report now.","The model predicts that STIM is in a distressed state with a high confidence level, reflected in a 99% probability of distress. The top SHAP features contributing to this prediction include ebit_margin and net_margin, both of which have negative values of -0.538 and -0.570, respectively, but they contribute positively to the distress classification with contributions of +1.388 and +0.859. This indicates that the company's low profitability margins are significant factors pushing the outlook toward distress.
+
+Additionally, the debt-to-equity ratio, with a value of 1.048 and a SHAP contribution of +0.380, suggests that the company's leverage is also a concern. While this feature has a positive contribution, the overall high debt level relative to equity can exacerbate financial strain, further supporting the distressed classification. The combination of poor margins and high leverage creates a challenging financial landscape for STIM, warranting caution from the credit committee.",gpt-4o-mini,277,192,0.000157,
+PACK,2021,Distressed,Distressed,True,asset_turnover,debt_to_equity,ebit_margin,"Company: PACK
+Fiscal year: 2021
+Model predicted class: Distressed
+Class probabilities: Healthy=0.00, At-Risk=0.07, Distressed=0.93
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=0.316, SHAP contribution=+1.662
+- debt_to_equity: value=0.907, SHAP contribution=+0.431
+- ebit_margin: value=0.032, SHAP contribution=+0.417
+
+Write the analyst report now.","The model predicts that PACK is in a distressed state, with a high probability of 93% for this classification. This indicates significant concerns regarding the company's financial health. The model is confident in this prediction, as evidenced by the near-zero probabilities for being healthy or at-risk. 
+
+The top SHAP features contributing positively to this distressed outlook include asset turnover, debt to equity, and EBIT margin. While asset turnover shows a strong positive contribution of 1.662, indicating some efficiency in generating revenue from assets, the overall financial structure is concerning. The debt-to-equity ratio, with a contribution of 0.431, suggests that the company is heavily leveraged, which can increase financial risk. Lastly, the EBIT margin's contribution of 0.417 indicates that profitability is low, which further exacerbates the distress situation. Collectively, these factors highlight a troubling financial profile for PACK, warranting caution from the credit committee.",gpt-4o-mini,277,186,0.000153,
+PRPO,2024,Distressed,Distressed,True,ebit_margin,net_margin,debt_to_equity,"Company: PRPO
+Fiscal year: 2024
+Model predicted class: Distressed
+Class probabilities: Healthy=0.00, At-Risk=0.04, Distressed=0.96
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- ebit_margin: value=-0.228, SHAP contribution=+1.152
+- net_margin: value=-0.232, SHAP contribution=+0.708
+- debt_to_equity: value=0.405, SHAP contribution=-0.499
+
+Write the analyst report now.","The model predicts that PRPO is in a distressed state, with a high probability of 96% for this classification. This prediction reflects a significant level of uncertainty regarding the company's financial health. The top SHAP features indicate that while the ebit_margin and net_margin are contributing positively to the distress prediction, their negative values suggest that the company's operational profitability is weak, which is a major concern. Specifically, the ebit_margin of -0.228 and net_margin of -0.232 indicate that PRPO is struggling to generate sufficient earnings relative to its revenue.
+
+Conversely, the debt_to_equity ratio of 0.405 has a negative SHAP contribution of -0.499, which indicates that the company's leverage is not supporting its financial position. In summary, the combination of poor margins and elevated debt levels contributes to a bleak outlook for PRPO, reinforcing the model's prediction of distress. The overall confidence in this prediction is high, underscoring the need for the credit committee to carefully consider the associated risks.",gpt-4o-mini,276,206,0.000165,
+ADSK,2021,Distressed,Distressed,True,debt_to_equity,asset_turnover,ebit_margin,"Company: ADSK
+Fiscal year: 2021
+Model predicted class: Distressed
+Class probabilities: Healthy=0.00, At-Risk=0.06, Distressed=0.94
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- debt_to_equity: value=9.138, SHAP contribution=+1.328
+- asset_turnover: value=0.510, SHAP contribution=+0.859
+- ebit_margin: value=0.141, SHAP contribution=-0.388
+
+Write the analyst report now.","The model predicts that ADSK is in a distressed state, with a high confidence level reflected in the probabilities: 94% for distressed, 6% for at-risk, and 0% for healthy. The top SHAP features indicate that the company's high debt-to-equity ratio of 9.138 contributes positively to this distress prediction, suggesting that the company's reliance on debt may be unsustainable. Additionally, the asset turnover ratio of 0.510 also supports the prediction, as it indicates inefficiency in generating revenue from assets.
+
+Conversely, the ebit margin of 0.141 has a negative contribution, which detracts from the overall outlook. This suggests that despite the positive contributions from debt-to-equity and asset turnover, the company's profitability is under pressure, further solidifying the model's prediction of distress. Overall, the combination of high leverage and low profitability raises significant concerns about ADSK's financial health.",gpt-4o-mini,277,186,0.000153,
+CNTY,2022,Distressed,Distressed,True,debt_to_equity,asset_turnover,ebit_margin,"Company: CNTY
+Fiscal year: 2022
+Model predicted class: Distressed
+Class probabilities: Healthy=0.00, At-Risk=0.10, Distressed=0.90
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- debt_to_equity: value=4.739, SHAP contribution=+1.424
+- asset_turnover: value=0.486, SHAP contribution=+1.155
+- ebit_margin: value=0.154, SHAP contribution=-0.387
+
+Write the analyst report now.","The model predicts that CNTY is in a distressed financial state, with a confidence level of 90% in this classification. This high probability is primarily supported by the positive contributions from the debt-to-equity ratio and asset turnover. The debt-to-equity ratio of 4.739 indicates a heavy reliance on debt financing, which is concerning and contributes positively to the prediction of distress. Similarly, the asset turnover of 0.486 suggests that the company is not efficiently utilizing its assets to generate revenue, further reinforcing the distress outlook.
+
+However, the ebit margin of 0.154 has a negative SHAP contribution of -0.387, indicating that while the company has some operational profitability, it is insufficient to counterbalance the risks posed by high leverage and low asset efficiency. Overall, the combination of these factors leads to a bleak outlook for CNTY, as the positive indicators do not outweigh the negative implications of its financial structure and operational performance.",gpt-4o-mini,277,191,0.000156,
+QURE,2024,Distressed,Distressed,True,asset_turnover,ebit_margin,debt_to_equity,"Company: QURE
+Fiscal year: 2024
+Model predicted class: Distressed
+Class probabilities: Healthy=0.00, At-Risk=0.00, Distressed=1.00
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=0.049, SHAP contribution=+0.953
+- ebit_margin: value=-6.919, SHAP contribution=+0.845
+- debt_to_equity: value=1.152, SHAP contribution=+0.652
+
+Write the analyst report now.","The model predicts that QURE is in a distressed state, with a high confidence level reflected in the class probabilities showing a complete lack of healthy or at-risk status. The top SHAP feature contributing positively to this prediction is asset turnover, which has a significant positive SHAP contribution of +0.953. This indicates that despite the overall distress, the company is effectively utilizing its assets to generate revenue, which is a supportive factor for its financial health.
+
+Conversely, the ebit_margin, with a value of -6.919 and a positive SHAP contribution of +0.845, suggests that while the company is generating some earnings before interest and taxes, the margin is notably negative, indicating operational inefficiencies or high costs. Additionally, the debt_to_equity ratio stands at 1.152, contributing positively with a SHAP value of +0.652, which implies that the company is somewhat leveraged. However, the overall outlook remains concerning due to the distress classification, driven primarily by the negative implications of the ebit_margin.",gpt-4o-mini,278,208,0.000166,
+BAND,2023,Distressed,Distressed,True,debt_to_equity,ebit_margin,asset_turnover,"Company: BAND
+Fiscal year: 2023
+Model predicted class: Distressed
+Class probabilities: Healthy=0.00, At-Risk=0.04, Distressed=0.96
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- debt_to_equity: value=2.702, SHAP contribution=+1.261
+- ebit_margin: value=-0.059, SHAP contribution=+1.015
+- asset_turnover: value=0.546, SHAP contribution=+0.780
+
+Write the analyst report now.","The machine-learning model predicts that BAND is in a distressed financial state, with a high confidence level indicated by a 96% probability of distress. The top SHAP feature contributing positively to this outlook is the debt-to-equity ratio, which stands at 2.702, suggesting that the company has a high level of debt relative to its equity. This elevated debt level can indicate financial risk, but it also reflects a capacity for leveraging assets, which may provide some operational flexibility.
+
+Additionally, the ebit_margin, although slightly negative at -0.059, contributes positively to the prediction with a SHAP value of +1.015, indicating that while profitability is a concern, it does not detract significantly from the overall distress assessment. The asset_turnover ratio of 0.546 also supports the prediction with a contribution of +0.780, suggesting that the company is utilizing its assets effectively, albeit within a challenging financial context. Overall, these factors illustrate a precarious situation for BAND, warranting close scrutiny by the credit committee.",gpt-4o-mini,277,209,0.000167,
+LHX,2024,Distressed,Distressed,True,asset_turnover,debt_to_equity,current_ratio,"Company: LHX
+Fiscal year: 2024
+Model predicted class: Distressed
+Class probabilities: Healthy=0.00, At-Risk=0.40, Distressed=0.59
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=0.508, SHAP contribution=+1.073
+- debt_to_equity: value=1.145, SHAP contribution=+0.448
+- current_ratio: value=1.077, SHAP contribution=+0.419
+
+Write the analyst report now.","The model predicts that LHX will be in a distressed state with a confidence level of 59%, indicating a significant risk of financial instability. The top SHAP features contributing to this prediction include asset turnover, debt to equity, and current ratio, all of which have positive contributions. The asset turnover of 0.508 suggests that while the company is generating some revenue relative to its assets, it may not be doing so efficiently enough to mitigate distress. The debt to equity ratio of 1.145 indicates that the company has a relatively high level of debt compared to its equity, which can heighten financial risk. Lastly, the current ratio of 1.077, while above 1, suggests only a marginal ability to cover short-term liabilities, contributing to the overall distress outlook.
+
+Despite the positive contributions of these features, they collectively indicate underlying weaknesses that worsen LHX's financial outlook. The combination of high debt levels and only marginal liquidity suggests that the company may struggle to meet its obligations, reinforcing the model's prediction of distress. The model's uncertainty in classifying LHX as at-risk, with a probability of 40%, further underscores the precarious position of the company and the need for careful monitoring and potential intervention.",gpt-4o-mini,277,246,0.000189,
+GSAT,2021,Distressed,Distressed,True,asset_turnover,ebit_margin,debt_to_equity,"Company: GSAT
+Fiscal year: 2021
+Model predicted class: Distressed
+Class probabilities: Healthy=0.00, At-Risk=0.00, Distressed=1.00
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=0.153, SHAP contribution=+1.137
+- ebit_margin: value=-0.525, SHAP contribution=+0.969
+- debt_to_equity: value=1.228, SHAP contribution=+0.711
+
+Write the analyst report now.","The model has predicted that GSAT is in a distressed state with a high level of confidence, as indicated by a probability of 100% for this classification. The top SHAP feature contributing positively to this prediction is asset turnover, which has a significant positive contribution of +1.137. This suggests that while the company is generating revenue relative to its assets, it is not enough to counterbalance the negative influences from other factors.
+
+The ebit margin, despite having a negative value of -0.525, still contributes positively to the prediction with +0.969, indicating that the company's profitability is under pressure. Additionally, the debt-to-equity ratio of 1.228 contributes positively with +0.711, suggesting that the company is leveraging its debt, which is a concern in a distressed scenario. Overall, the combination of these features indicates that while there are some positive aspects, the overall outlook for GSAT remains unfavorable due to the significant distress signals from its financial metrics.",gpt-4o-mini,278,197,0.00016,
+TIGR,2024,Distressed,Distressed,True,asset_turnover,debt_to_equity,ebit_margin,"Company: TIGR
+Fiscal year: 2024
+Model predicted class: Distressed
+Class probabilities: Healthy=0.00, At-Risk=0.00, Distressed=1.00
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=0.061, SHAP contribution=+2.291
+- debt_to_equity: value=8.837, SHAP contribution=+1.198
+- ebit_margin: value=0.200, SHAP contribution=-0.367
+
+Write the analyst report now.","The model predicts that TIGR is in a distressed state with a certainty level of 100%, as indicated by a probability of 1.00 for the distressed class. The top SHAP feature contributing positively to this prediction is asset turnover, which shows a value of 0.061 and a significant contribution of +2.291. This suggests that the company's efficiency in utilizing its assets to generate revenue is a concern. Additionally, the debt-to-equity ratio stands at 8.837, contributing +1.198 to the distress prediction, indicating a high level of leverage that may pose financial risks.
+
+Conversely, the ebit margin, with a value of 0.200 and a negative SHAP contribution of -0.367, indicates that profitability is under pressure, further worsening the outlook. The combination of high debt levels and low profitability, as reflected in the model's findings, underscores the financial challenges facing TIGR, reinforcing the prediction of distress. The overall assessment suggests that without significant improvements in operational efficiency and profitability, the company's financial health will likely remain compromised.",gpt-4o-mini,277,216,0.000171,
+CDXC,2023,Distressed,Distressed,True,asset_turnover,ebit_margin,size_bucket_micro,"Company: CDXC
+Fiscal year: 2023
+Model predicted class: Distressed
+Class probabilities: Healthy=0.01, At-Risk=0.27, Distressed=0.72
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=1.520, SHAP contribution=-1.237
+- ebit_margin: value=-0.067, SHAP contribution=+1.024
+- size_bucket_micro: value=1.000, SHAP contribution=+0.646
+
+Write the analyst report now.","The model predicts that CDXC is in a distressed state, with a high probability of 72% for this classification. The confidence in this prediction is strong, given the significant disparity between the probabilities of being healthy (1%) and at-risk (27%). The top SHAP feature contributing negatively to this outlook is asset_turnover, which has a value of 1.520 and a substantial negative contribution of -1.237. This suggests that the company's efficiency in utilizing its assets to generate revenue is a concern, thereby worsening its financial health.
+
+Conversely, the ebit_margin and size_bucket_micro features provide some support to the prediction of distress. The ebit_margin, with a value of -0.067 and a positive SHAP contribution of 1.024, indicates that while the company may be operating at a loss, there is potential for profitability if margins improve. Additionally, the size_bucket_micro feature, valued at 1.000 with a contribution of 0.646, suggests that being classified as a micro-sized company may offer some advantages, although it does not significantly offset the negative impacts from asset turnover.",gpt-4o-mini,276,226,0.000177,
+WSC,2021,Distressed,Distressed,True,asset_turnover,debt_to_equity,current_ratio,"Company: WSC
+Fiscal year: 2021
+Model predicted class: Distressed
+Class probabilities: Healthy=0.00, At-Risk=0.01, Distressed=0.99
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=0.290, SHAP contribution=+2.422
+- debt_to_equity: value=1.891, SHAP contribution=+1.062
+- current_ratio: value=0.933, SHAP contribution=+0.467
+
+Write the analyst report now.","The model predicts that WSC is in a distressed state, with a high confidence level reflected in a 99% probability of this classification. The top SHAP feature contributing positively to this prediction is asset turnover, which has a significant contribution of +2.422. This indicates that the company is struggling to efficiently utilize its assets to generate revenue, which is a critical concern for its financial health. Additionally, the debt-to-equity ratio, with a contribution of +1.062, suggests that the company is heavily leveraged, increasing its financial risk. The current ratio, contributing +0.467, indicates that WSC has a low ability to cover its short-term liabilities with its short-term assets, further exacerbating its distressed outlook.
+
+Overall, the combination of these factors paints a concerning picture for WSC. The high asset turnover and debt-to-equity ratios signal operational inefficiencies and excessive leverage, while the current ratio reflects liquidity issues. Together, these elements significantly worsen the company's financial outlook, reinforcing the model's prediction of distress.",gpt-4o-mini,277,207,0.000166,
+ASXC,2022,Distressed,Distressed,True,debt_to_equity,ebit_margin,net_margin,"Company: ASXC
+Fiscal year: 2022
+Model predicted class: Distressed
+Class probabilities: Healthy=0.09, At-Risk=0.12, Distressed=0.79
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- debt_to_equity: value=0.165, SHAP contribution=-1.693
+- ebit_margin: value=-10.634, SHAP contribution=+1.055
+- net_margin: value=-10.662, SHAP contribution=+1.051
+
+Write the analyst report now.","The model predicts that ASXC is in a distressed state, with a high probability of 79%. This prediction is supported by the significant negative SHAP contribution from the debt_to_equity ratio, which indicates that the company's leverage is detrimental to its financial health. A high debt-to-equity ratio suggests that ASXC may be over-leveraged, increasing financial risk and worsening its outlook. 
+
+Conversely, the ebit_margin and net_margin metrics contribute positively to the prediction, albeit from negative values. The ebit_margin of -10.634 and net_margin of -10.662 suggest operational challenges, but their positive SHAP contributions indicate that these margins, despite being negative, are less severe than they could be. This suggests some level of operational resilience, but overall, the model's confidence in a distressed classification highlights significant concerns regarding ASXC's financial stability.",gpt-4o-mini,276,174,0.000146,
+PNW,2023,Distressed,Distressed,True,asset_turnover,debt_to_equity,current_ratio,"Company: PNW
+Fiscal year: 2023
+Model predicted class: Distressed
+Class probabilities: Healthy=0.00, At-Risk=0.01, Distressed=0.99
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=0.190, SHAP contribution=+2.686
+- debt_to_equity: value=2.924, SHAP contribution=+1.017
+- current_ratio: value=0.667, SHAP contribution=+0.445
+
+Write the analyst report now.","The model predicts that PNW is in a distressed state, with a very high probability of 99% for this classification. This strong prediction indicates a high level of uncertainty regarding the company's financial health. The top SHAP feature contributing positively to this outlook is asset turnover, which has a significant contribution of +2.686. This suggests that the company is not effectively utilizing its assets to generate revenue, which is a critical concern for its operational efficiency. 
+
+Additionally, the debt-to-equity ratio, with a contribution of +1.017, indicates that the company is highly leveraged, further exacerbating its financial instability. The current ratio, contributing +0.445, shows that liquidity is a concern, as the value of 0.667 suggests that PNW may struggle to meet short-term obligations. Collectively, these factors paint a troubling picture of PNW's financial situation, supporting the model's prediction of distress.",gpt-4o-mini,277,185,0.000153,
+FLT,2024,Distressed,Distressed,True,asset_turnover,debt_to_equity,ebit_margin,"Company: FLT
+Fiscal year: 2024
+Model predicted class: Distressed
+Class probabilities: Healthy=0.01, At-Risk=0.06, Distressed=0.93
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=0.221, SHAP contribution=+2.228
+- debt_to_equity: value=4.708, SHAP contribution=+1.107
+- ebit_margin: value=0.442, SHAP contribution=-1.064
+
+Write the analyst report now.","The model predicts that FLT is in a distressed state, with a high probability of 93% indicating significant financial challenges. This prediction is supported by the SHAP feature attributions, particularly the asset turnover, which has a strong positive contribution of +2.228. This suggests that despite the overall distress, FLT is generating revenue efficiently relative to its assets, which is a positive sign. Additionally, the debt-to-equity ratio of 4.708 also contributes positively (+1.107), indicating that the company is heavily leveraged, which, while potentially risky, may also suggest growth opportunities if managed properly.
+
+Conversely, the ebit margin, with a negative contribution of -1.064, indicates that FLT's profitability is under pressure, which worsens the outlook. This margin reflects the company's ability to generate earnings before interest and taxes, and its low value suggests operational inefficiencies or high costs that could hinder financial recovery. Overall, the model is confident in its prediction of distress due to the overwhelming probability and the mixed signals from the SHAP features.",gpt-4o-mini,277,214,0.00017,
+MSGM,2022,Distressed,Distressed,True,ebit_margin,debt_to_equity,net_margin,"Company: MSGM
+Fiscal year: 2022
+Model predicted class: Distressed
+Class probabilities: Healthy=0.00, At-Risk=0.00, Distressed=1.00
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- ebit_margin: value=-2.461, SHAP contribution=+1.218
+- debt_to_equity: value=8.928, SHAP contribution=+0.920
+- net_margin: value=-3.486, SHAP contribution=+0.628
+
+Write the analyst report now.","The model predicts that MSGM is in a distressed state, exhibiting a high level of confidence with a probability of 100% for this classification. The top SHAP feature contributions indicate that while the ebit_margin and debt_to_equity ratios provide some support for this prediction, the overall outlook remains negative due to the significant adverse impact of the net_margin. The ebit_margin, despite its positive SHAP contribution, is still negative at -2.461, suggesting that operational profitability is weak. Similarly, the debt_to_equity ratio of 8.928, while contributing positively, indicates a high level of leverage, which can be risky.
+
+The most concerning factor is the net_margin, which stands at -3.486 and has a substantial negative SHAP contribution. This suggests that MSGM is not only struggling to generate profit but is also likely facing challenges in controlling costs or generating sufficient revenue. The combination of these factors reinforces the model's prediction of distress, highlighting the need for the credit committee to approach any potential lending with caution given the company's financial vulnerabilities.",gpt-4o-mini,277,213,0.000169,
+EKSO,2023,Distressed,Distressed,True,ebit_margin,net_margin,debt_to_equity,"Company: EKSO
+Fiscal year: 2023
+Model predicted class: Distressed
+Class probabilities: Healthy=0.00, At-Risk=0.00, Distressed=1.00
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- ebit_margin: value=-0.827, SHAP contribution=+1.355
+- net_margin: value=-0.831, SHAP contribution=+0.738
+- debt_to_equity: value=1.294, SHAP contribution=+0.604
+
+Write the analyst report now.","The model has predicted that EKSO is in a distressed state with a confidence level of 100%, as indicated by the class probabilities showing a complete lack of healthy or at-risk classifications. The top SHAP features contributing to this prediction include ebit_margin and net_margin, both of which are negative at -0.827 and -0.831, respectively. Although these margins have positive SHAP contributions, they reflect significant financial strain, suggesting that the company's profitability is under pressure, which worsens the outlook.
+
+Additionally, the debt_to_equity ratio stands at 1.294, contributing positively with a SHAP value of +0.604. However, this high level of debt relative to equity indicates increased financial risk, further supporting the model's prediction of distress. Overall, the combination of low margins and high leverage creates a concerning financial situation for EKSO, reinforcing the need for close monitoring and potential intervention.",gpt-4o-mini,277,183,0.000151,
+PSA,2024,Distressed,Distressed,True,asset_turnover,ebit_margin,net_margin,"Company: PSA
+Fiscal year: 2024
+Model predicted class: Distressed
+Class probabilities: Healthy=0.07, At-Risk=0.31, Distressed=0.62
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=0.238, SHAP contribution=+1.937
+- ebit_margin: value=0.469, SHAP contribution=-1.215
+- net_margin: value=0.441, SHAP contribution=-0.526
+
+Write the analyst report now.","The model predicts that PSA is in a distressed state, with a high probability of 62%, indicating significant financial challenges ahead. The most influential factor contributing positively to this prediction is the asset turnover, which has a strong SHAP contribution of +1.937. This suggests that while PSA is generating revenue relative to its assets, it is not enough to offset the negative impacts from other key financial metrics.
+
+Conversely, the ebit margin and net margin are both contributing negatively, with SHAP contributions of -1.215 and -0.526, respectively. These margins indicate that PSA is struggling with profitability, which worsens the overall outlook. The model's confidence in the distressed classification, reflected by the high probability, underscores the urgency for the credit committee to consider the implications of these financial indicators when assessing PSA's creditworthiness.",gpt-4o-mini,273,166,0.000141,
+RICK,2024,At-Risk,Distressed,False,debt_to_equity,asset_turnover,ebit_margin,"Company: RICK
+Fiscal year: 2024
+Model predicted class: Distressed
+Class probabilities: Healthy=0.00, At-Risk=0.23, Distressed=0.77
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- debt_to_equity: value=1.221, SHAP contribution=+0.624
+- asset_turnover: value=0.506, SHAP contribution=+0.589
+- ebit_margin: value=0.187, SHAP contribution=-0.575
+
+Write the analyst report now.","The model predicts that RICK is in a distressed state, with a high probability of 77% for this classification. This prediction stems from several key financial indicators. The debt-to-equity ratio of 1.221 positively contributes to the distress outlook, indicating a significant reliance on debt financing, which can heighten financial risk. Additionally, the asset turnover ratio of 0.506 also supports this prediction, suggesting that the company is not effectively utilizing its assets to generate revenue. 
+
+Conversely, the ebit margin of 0.187 negatively impacts the outlook, reflecting lower profitability and operational efficiency. The combination of these factors leads to a confident prediction of distress, as the positive contributions from debt-to-equity and asset turnover are overshadowed by the negative impact of the ebit margin. This situation warrants careful consideration by the credit committee, as the company's financial health appears precarious.",gpt-4o-mini,277,178,0.000148,
+BNED,2022,Distressed,At-Risk,False,asset_turnover,debt_to_equity,net_margin,"Company: BNED
+Fiscal year: 2022
+Model predicted class: At-Risk
+Class probabilities: Healthy=0.01, At-Risk=0.77, Distressed=0.22
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=1.396, SHAP contribution=+0.270
+- debt_to_equity: value=3.692, SHAP contribution=+0.178
+- net_margin: value=-0.046, SHAP contribution=+0.142
+
+Write the analyst report now.","The model predicts that BNED is at risk, with a high probability of 77%, indicating significant concerns regarding its financial health. The model's confidence in this prediction is evident, as the probabilities for the healthy and distressed classes are very low at 0.01 and 0.22, respectively. The top SHAP feature contributing positively to this outlook is asset turnover, which stands at 1.396, suggesting that the company is generating a reasonable amount of revenue relative to its assets. Additionally, the debt-to-equity ratio of 3.692, while high, also contributes positively, indicating that the company is leveraging its equity to finance growth, albeit at a potentially risky level.
+
+However, the net margin of -0.046, despite its positive SHAP contribution, indicates that BNED is struggling with profitability, which worsens the overall outlook. The negative margin suggests that the company is not effectively converting sales into profit, raising concerns about its ability to sustain operations in the long term. Collectively, these factors underscore the challenges BNED faces, reinforcing its classification as at risk.",gpt-4o-mini,278,220,0.000174,
+TECH,2024,At-Risk,Healthy,False,asset_turnover,debt_to_equity,ebit_margin,"Company: TECH
+Fiscal year: 2024
+Model predicted class: Healthy
+Class probabilities: Healthy=0.72, At-Risk=0.27, Distressed=0.01
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=0.429, SHAP contribution=-1.668
+- debt_to_equity: value=0.307, SHAP contribution=+1.121
+- ebit_margin: value=0.178, SHAP contribution=+0.446
+
+Write the analyst report now.","The model predicts that TECH is in a healthy financial state with a probability of 72%. This confidence is bolstered by the positive contributions from the debt_to_equity ratio and ebit_margin, which indicate a favorable balance between debt and equity financing and healthy operational profitability, respectively. Specifically, the debt_to_equity ratio's contribution of +1.121 suggests that the company is managing its leverage effectively, while the ebit_margin's contribution of +0.446 reflects strong earnings relative to sales.
+
+However, the asset_turnover ratio has a negative contribution of -1.668, which detracts from the overall outlook. This indicates that the company may not be utilizing its assets as efficiently as it could be, potentially limiting revenue generation. While the model remains confident in the healthy classification, the negative impact of asset_turnover highlights an area that could be improved to enhance TECH's financial performance further.",gpt-4o-mini,275,180,0.000149,
+LTRX,2022,Distressed,At-Risk,False,debt_to_equity,asset_turnover,cost_growth,"Company: LTRX
+Fiscal year: 2022
+Model predicted class: At-Risk
+Class probabilities: Healthy=0.01, At-Risk=0.64, Distressed=0.35
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- debt_to_equity: value=0.719, SHAP contribution=+0.253
+- asset_turnover: value=0.944, SHAP contribution=+0.178
+- cost_growth: value=0.795, SHAP contribution=+0.162
+
+Write the analyst report now.","The model predicts that LTRX is at risk, with a probability of 64% for this classification, indicating a high level of uncertainty regarding its financial stability. The top SHAP features contributing positively to this prediction include debt_to_equity, asset_turnover, and cost_growth. The debt_to_equity ratio of 0.719 suggests a relatively high level of leverage, which can increase financial risk, while the asset_turnover ratio of 0.944 indicates that the company is generating a reasonable amount of revenue per asset, which is a positive sign. Additionally, the cost_growth figure of 0.795 reflects manageable cost increases, which supports the company's ability to maintain profitability.
+
+Despite these positive contributions, the overall outlook remains concerning due to the classification as at-risk. The combination of high leverage and moderate asset efficiency raises questions about LTRX's ability to sustain operations without further financial strain. While the positive SHAP contributions provide some support for the company's performance, the prevailing risk factors suggest that the credit committee should proceed with caution in any financial dealings with LTRX.",gpt-4o-mini,279,217,0.000172,
+GMED,2023,At-Risk,Healthy,False,asset_turnover,debt_to_equity,current_ratio,"Company: GMED
+Fiscal year: 2023
+Model predicted class: Healthy
+Class probabilities: Healthy=0.55, At-Risk=0.43, Distressed=0.02
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=0.308, SHAP contribution=-1.548
+- debt_to_equity: value=0.272, SHAP contribution=+1.486
+- current_ratio: value=5.998, SHAP contribution=+0.325
+
+Write the analyst report now.","The model predicts that GMED is in a ""Healthy"" financial state, with a probability of 55%. This prediction indicates a moderate level of confidence, as the probabilities for the ""At-Risk"" and ""Distressed"" classes are relatively close at 43% and 2%, respectively. The top SHAP feature, asset_turnover, has a significant negative contribution of -1.548, suggesting that GMED's efficiency in generating revenue from its assets is below expectations, which negatively impacts its overall outlook. 
+
+Conversely, the debt_to_equity ratio contributes positively with a value of 1.486, indicating a strong capital structure that supports the company's financial health. Additionally, the current_ratio, with a contribution of +0.325, reflects GMED's solid liquidity position, further bolstering the prediction of a healthy status. Despite the concerns raised by asset_turnover, the positive contributions from debt_to_equity and current_ratio provide a more favorable view of GMED's financial stability.",gpt-4o-mini,275,203,0.000163,
+TECH,2022,At-Risk,Healthy,False,asset_turnover,ebit_margin,debt_to_equity,"Company: TECH
+Fiscal year: 2022
+Model predicted class: Healthy
+Class probabilities: Healthy=0.51, At-Risk=0.48, Distressed=0.01
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=0.482, SHAP contribution=-1.917
+- ebit_margin: value=0.268, SHAP contribution=+0.958
+- debt_to_equity: value=0.349, SHAP contribution=+0.552
+
+Write the analyst report now.","The model predicts that TECH is in a healthy financial state, with a probability of 51% for this classification, indicating a level of uncertainty given the close probabilities of 48% for at-risk and 1% for distressed. The top SHAP feature contributing negatively is asset_turnover, which has a significant negative contribution of -1.917. This suggests that the company’s efficiency in generating revenue from its assets is lacking, which could be a concern for future performance.
+
+Conversely, the ebit_margin and debt_to_equity ratios provide a more favorable outlook. The ebit_margin has a positive contribution of +0.958, indicating that the company is effectively managing its operating expenses relative to its revenue, which supports the healthy classification. Additionally, the debt_to_equity ratio, with a contribution of +0.552, suggests that the company maintains a manageable level of debt compared to its equity, further reinforcing its financial stability. Overall, while there are areas of concern, particularly with asset turnover, the positive contributions from ebit_margin and debt_to_equity help support the model's prediction.",gpt-4o-mini,275,221,0.000174,
+EVC,2021,Distressed,At-Risk,False,asset_turnover,debt_to_equity,cost_growth,"Company: EVC
+Fiscal year: 2021
+Model predicted class: At-Risk
+Class probabilities: Healthy=0.01, At-Risk=0.89, Distressed=0.10
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=0.893, SHAP contribution=+0.330
+- debt_to_equity: value=2.314, SHAP contribution=+0.243
+- cost_growth: value=1.305, SHAP contribution=-0.192
+
+Write the analyst report now.","The model predicts that EVC is at risk, with a high probability of 89% for this classification. This prediction reflects a level of confidence in the assessment, indicating potential financial instability. The top SHAP features contributing to this outlook include asset turnover and debt-to-equity, both of which have positive contributions. The asset turnover of 0.893 suggests that the company is generating a reasonable amount of revenue relative to its assets, which is a favorable sign. Similarly, a debt-to-equity ratio of 2.314 indicates that the company is leveraging its equity to finance growth, although this can also imply higher financial risk.
+
+Conversely, the cost growth of 1.305 has a negative SHAP contribution of -0.192, which detracts from the overall financial health of EVC. This suggests that increasing costs may be outpacing revenue growth, potentially leading to tighter margins and reduced profitability. Together, these factors highlight the challenges EVC faces, with rising costs undermining the positive aspects of its asset efficiency and leverage.",gpt-4o-mini,277,210,0.000168,
+AVTR,2023,Distressed,At-Risk,False,asset_turnover,debt_to_equity,net_margin,"Company: AVTR
+Fiscal year: 2023
+Model predicted class: At-Risk
+Class probabilities: Healthy=0.00, At-Risk=0.74, Distressed=0.26
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=0.537, SHAP contribution=+0.248
+- debt_to_equity: value=1.470, SHAP contribution=+0.174
+- net_margin: value=0.046, SHAP contribution=+0.149
+
+Write the analyst report now.","The model predicts that AVTR is at risk, with a high probability of 74% for this classification. This prediction indicates a concerning financial outlook for the company. The top SHAP features contributing positively to this prediction include asset turnover, debt to equity, and net margin. Specifically, asset turnover has a significant positive contribution of 0.248, suggesting that the company is generating revenue efficiently relative to its assets. Similarly, a debt to equity ratio of 1.470, with a SHAP contribution of 0.174, indicates that the company is utilizing a considerable amount of debt, which can heighten financial risk. Lastly, the net margin of 0.046, contributing positively with 0.149, shows limited profitability.
+
+Despite these positive contributions, the overall classification of ""At-Risk"" reflects underlying concerns. The model's confidence in this prediction suggests that while certain metrics like asset turnover and net margin provide some support, the combination of these factors with the company's current debt levels raises significant red flags. The financial health of AVTR appears precarious, warranting close scrutiny by the credit committee.",gpt-4o-mini,278,224,0.000176,
+MRAM,2024,Distressed,Healthy,False,debt_to_equity,ebit_margin,asset_turnover,"Company: MRAM
+Fiscal year: 2024
+Model predicted class: Healthy
+Class probabilities: Healthy=0.48, At-Risk=0.46, Distressed=0.06
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- debt_to_equity: value=0.243, SHAP contribution=+1.374
+- ebit_margin: value=-0.141, SHAP contribution=-0.906
+- asset_turnover: value=0.648, SHAP contribution=-0.554
+
+Write the analyst report now.","The model predicts that MRAM is in a ""Healthy"" state with a probability of 48%, but it also indicates a significant level of uncertainty, as the likelihood of being ""At-Risk"" is close at 46%. The top SHAP feature contributing positively to this classification is the debt_to_equity ratio, which at 0.243, has a strong positive SHAP contribution of +1.374. This suggests that MRAM's leverage is favorable, supporting the outlook for the company.
+
+However, the model also highlights concerns with the ebit_margin and asset_turnover, which have negative SHAP contributions of -0.906 and -0.554, respectively. The negative ebit_margin of -0.141 indicates that profitability is a concern, while the asset_turnover of 0.648 suggests inefficiencies in utilizing assets to generate revenue. These factors contribute to the uncertainty surrounding MRAM's financial health, emphasizing the need for close monitoring of its operational performance.",gpt-4o-mini,275,198,0.00016,
+MRAM,2023,At-Risk,Healthy,False,debt_to_equity,current_ratio,net_margin,"Company: MRAM
+Fiscal year: 2023
+Model predicted class: Healthy
+Class probabilities: Healthy=0.95, At-Risk=0.04, Distressed=0.01
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- debt_to_equity: value=0.248, SHAP contribution=+1.629
+- current_ratio: value=6.594, SHAP contribution=+0.340
+- net_margin: value=0.142, SHAP contribution=+0.340
+
+Write the analyst report now.","The machine-learning model predicts that MRAM is in a healthy financial state, with a high confidence level reflected in a probability of 95% for the healthy class. This positive outlook is primarily supported by the company's debt-to-equity ratio, which has a strong SHAP contribution of +1.629. A lower debt-to-equity ratio indicates that MRAM is effectively managing its leverage, reducing financial risk. Additionally, the current ratio of 6.594, with a SHAP contribution of +0.340, suggests that the company has ample liquidity to meet its short-term obligations, further reinforcing its robust financial position. 
+
+Moreover, the net margin, with a SHAP contribution of +0.340, indicates that MRAM is maintaining profitability, which is crucial for sustaining operations and growth. Overall, the model's confidence in MRAM's health is bolstered by these strong financial indicators, suggesting a solid foundation for future performance.",gpt-4o-mini,275,188,0.000154,
+XRX,2021,At-Risk,Distressed,False,asset_turnover,debt_to_equity,net_margin,"Company: XRX
+Fiscal year: 2021
+Model predicted class: Distressed
+Class probabilities: Healthy=0.00, At-Risk=0.07, Distressed=0.93
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=0.532, SHAP contribution=+1.198
+- debt_to_equity: value=1.833, SHAP contribution=+1.130
+- net_margin: value=-0.065, SHAP contribution=+0.493
+
+Write the analyst report now.","The model predicts that Company XRX is in a distressed state, with a high probability of 93% indicating significant financial distress. This prediction is supported by strong positive contributions from key financial metrics. The asset turnover ratio of 0.532 contributes positively with a SHAP value of +1.198, suggesting that the company is utilizing its assets effectively to generate revenue. Additionally, the debt-to-equity ratio of 1.833, with a SHAP contribution of +1.130, indicates a relatively high level of debt compared to equity, which, while concerning, may also reflect aggressive growth strategies that could yield future returns.
+
+However, the net margin of -0.065 has a positive SHAP contribution of +0.493, indicating that while the company is currently operating at a loss, there may be underlying factors that could improve profitability in the future. Overall, the model expresses a high level of confidence in its prediction, reflecting a challenging financial outlook for XRX, primarily driven by its high debt levels and current negative profitability.",gpt-4o-mini,277,209,0.000167,
+BNED,2024,Distressed,At-Risk,False,debt_to_equity,asset_turnover,net_margin,"Company: BNED
+Fiscal year: 2024
+Model predicted class: At-Risk
+Class probabilities: Healthy=0.06, At-Risk=0.69, Distressed=0.25
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- debt_to_equity: value=11.824, SHAP contribution=-0.794
+- asset_turnover: value=1.732, SHAP contribution=+0.340
+- net_margin: value=-0.040, SHAP contribution=+0.161
+
+Write the analyst report now.","The model predicts that BNED is at-risk, with a high probability of 69%. This prediction is supported by the negative SHAP contribution from the debt_to_equity ratio, which stands at 11.824 and detracts significantly from the overall outlook. A high debt-to-equity ratio indicates that the company is heavily leveraged, which raises concerns about its financial stability and ability to meet obligations. 
+
+On a more positive note, the asset_turnover ratio of 1.732 contributes positively to the prediction, suggesting that the company is efficiently utilizing its assets to generate revenue. Additionally, the net_margin, although slightly negative at -0.040, has a positive SHAP contribution of 0.161, indicating that there may be some underlying profitability despite the overall risks. Overall, the model reflects uncertainty in BNED's financial health, primarily driven by its high leverage, despite some supportive operational efficiencies.",gpt-4o-mini,277,182,0.000151,
+IONQ,2023,At-Risk,Distressed,False,debt_to_equity,ebit_margin,net_margin,"Company: IONQ
+Fiscal year: 2023
+Model predicted class: Distressed
+Class probabilities: Healthy=0.25, At-Risk=0.34, Distressed=0.41
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- debt_to_equity: value=0.140, SHAP contribution=-2.096
+- ebit_margin: value=-7.157, SHAP contribution=+0.917
+- net_margin: value=-7.158, SHAP contribution=+0.737
+
+Write the analyst report now.","The model predicts that IONQ is in a distressed state, with a 41% probability of this classification, indicating significant concern about the company's financial health. The model shows a level of uncertainty, as the probabilities for the other classes—Healthy at 25% and At-Risk at 34%—suggest that there are competing factors at play. 
+
+The top SHAP features contributing to this prediction highlight areas of concern. The debt-to-equity ratio, with a SHAP contribution of -2.096, indicates that high leverage is negatively impacting the company's outlook. Additionally, both the ebit_margin and net_margin, despite their positive contributions, reflect substantial negative values of -7.157 and -7.158, respectively. This suggests that while there are some positive aspects to the margins, the overall financial performance is weak, further supporting the distressed classification.",gpt-4o-mini,277,174,0.000146,
+AON,2022,Distressed,At-Risk,False,negative_equity,ebit_margin,asset_turnover,"Company: AON
+Fiscal year: 2022
+Model predicted class: At-Risk
+Class probabilities: Healthy=0.02, At-Risk=0.50, Distressed=0.48
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- negative_equity: value=1.000, SHAP contribution=-0.374
+- ebit_margin: value=0.303, SHAP contribution=+0.223
+- asset_turnover: value=0.382, SHAP contribution=-0.176
+
+Write the analyst report now.","The model has predicted that AON is at risk, with a probability of 50% for this classification, indicating a level of uncertainty regarding its financial health. The top SHAP feature contributing negatively to this outlook is negative equity, which has a significant SHAP contribution of -0.374. This suggests that the company's liabilities exceed its assets, raising concerns about its financial stability. Additionally, asset turnover, with a SHAP contribution of -0.176, indicates inefficiencies in utilizing assets to generate revenue, further exacerbating the risk profile.
+
+On a more positive note, the ebit_margin feature shows a SHAP contribution of +0.223, suggesting that AON has a reasonable operating margin, which could support profitability despite the challenges posed by negative equity and asset turnover. However, the overall picture remains concerning, as the negative contributions from negative equity and asset turnover outweigh the positive contribution from ebit_margin, leading to the classification of the company as at risk.",gpt-4o-mini,276,194,0.000158,
+UGI,2023,At-Risk,Distressed,False,debt_to_equity,ebit_margin,asset_turnover,"Company: UGI
+Fiscal year: 2023
+Model predicted class: Distressed
+Class probabilities: Healthy=0.00, At-Risk=0.03, Distressed=0.97
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- debt_to_equity: value=2.505, SHAP contribution=+1.187
+- ebit_margin: value=-0.064, SHAP contribution=+0.939
+- asset_turnover: value=0.580, SHAP contribution=+0.652
+
+Write the analyst report now.","The model predicts that UGI is in a distressed state, with a high probability of 97% for this classification, indicating strong confidence in the assessment. The top SHAP feature contributing positively to this prediction is the debt-to-equity ratio, which stands at 2.505 and adds a significant +1.187 to the model's output. This suggests that the company's high leverage is a critical factor pushing it toward the distressed classification. Additionally, the ebit_margin, although negative at -0.064, still contributes positively with +0.939, indicating that despite operating losses, the company's earnings before interest and taxes are not as detrimental as they could be. Lastly, asset turnover at 0.580 contributes +0.652, suggesting that the company is generating some revenue relative to its assets, but not enough to offset the concerns raised by its high debt levels.
+
+Overall, the combination of high debt and negative margins significantly worsens UGI's outlook. The reliance on debt financing, reflected in the debt-to-equity ratio, poses a substantial risk, overshadowing the relatively better performance indicated by the other features. The model's confidence in the distressed classification underscores the urgency for the credit committee to consider the implications of UGI's financial health.",gpt-4o-mini,278,252,0.000193,
+NARI,2022,Healthy,At-Risk,False,ebit_margin,gross_margin,debt_to_equity,"Company: NARI
+Fiscal year: 2022
+Model predicted class: At-Risk
+Class probabilities: Healthy=0.35, At-Risk=0.60, Distressed=0.05
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- ebit_margin: value=-0.073, SHAP contribution=+0.260
+- gross_margin: value=0.884, SHAP contribution=-0.237
+- debt_to_equity: value=0.209, SHAP contribution=-0.195
+
+Write the analyst report now.","The model predicts that NARI is At-Risk with a probability of 60%, indicating a level of uncertainty regarding its financial health. The top SHAP feature contributing positively to this prediction is the ebit_margin, which, despite its negative value of -0.073, has a strong positive SHAP contribution of +0.260. This suggests that the company's operational profitability is a crucial factor in the model's assessment, although it is not enough to offset other negative indicators.
+
+Conversely, the gross_margin and debt_to_equity ratios present significant concerns. The gross_margin, with a value of 0.884 and a SHAP contribution of -0.237, indicates that the company's cost of goods sold is adversely affecting its profitability. Additionally, the debt_to_equity ratio of 0.209, contributing negatively with -0.195, raises red flags about the company's leverage and financial stability. These factors collectively worsen the outlook for NARI, highlighting the need for close monitoring and potential intervention.",gpt-4o-mini,276,202,0.000163,
+GMED,2024,At-Risk,Healthy,False,debt_to_equity,asset_turnover,current_ratio,"Company: GMED
+Fiscal year: 2024
+Model predicted class: Healthy
+Class probabilities: Healthy=0.51, At-Risk=0.47, Distressed=0.02
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- debt_to_equity: value=0.257, SHAP contribution=+1.545
+- asset_turnover: value=0.480, SHAP contribution=-1.298
+- current_ratio: value=5.907, SHAP contribution=+0.342
+
+Write the analyst report now.","The model predicts that GMED is in a healthy financial position, with a probability of 51% for this classification, indicating a slight confidence in its stability. The top SHAP feature, debt_to_equity, has a strong positive contribution of +1.545, suggesting that the company’s relatively low debt levels compared to equity are a significant factor supporting its healthy status. However, the asset_turnover ratio, with a negative contribution of -1.298, indicates potential inefficiencies in utilizing its assets to generate revenue, which could negatively impact its financial outlook.
+
+Additionally, the current_ratio, which stands at 5.907, contributes positively with a value of +0.342. This high current ratio reflects GMED's strong liquidity position, further reinforcing the model's prediction of health. Overall, while the model shows a slight confidence in GMED's healthy classification, the negative impact of asset turnover raises concerns that warrant close monitoring.",gpt-4o-mini,275,188,0.000154,
+MRK,2023,At-Risk,Distressed,False,debt_to_equity,asset_turnover,ebit_margin,"Company: MRK
+Fiscal year: 2023
+Model predicted class: Distressed
+Class probabilities: Healthy=0.00, At-Risk=0.09, Distressed=0.91
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- debt_to_equity: value=1.835, SHAP contribution=+1.099
+- asset_turnover: value=0.564, SHAP contribution=+0.881
+- ebit_margin: value=0.049, SHAP contribution=+0.560
+
+Write the analyst report now.","The model predicts that MRK is in a distressed state with a high probability of 91%, indicating significant concerns regarding its financial health. This prediction is supported by the top SHAP feature contributions, particularly the debt_to_equity ratio, which stands at 1.835 and contributes positively by 1.099. This suggests that the company's high level of debt relative to its equity is a critical factor pushing it towards distress. Additionally, the asset_turnover ratio of 0.564 and an ebit_margin of 0.049, with contributions of 0.881 and 0.560 respectively, indicate that while the company is generating some revenue from its assets, its overall profitability remains weak.
+
+The model's confidence in this prediction is evident, as the probabilities strongly favor the distressed classification. The combination of high debt levels and low profitability margins raises significant red flags for MRK's financial outlook. These factors collectively worsen the company's position, highlighting the need for immediate strategic interventions to address its financial challenges.",gpt-4o-mini,278,202,0.000163,
+ZIP,2023,At-Risk,Distressed,False,asset_turnover,debt_to_equity,ebit_margin,"Company: ZIP
+Fiscal year: 2023
+Model predicted class: Distressed
+Class probabilities: Healthy=0.06, At-Risk=0.38, Distressed=0.56
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=0.979, SHAP contribution=-1.006
+- debt_to_equity: value=33.065, SHAP contribution=+0.870
+- ebit_margin: value=0.123, SHAP contribution=-0.506
+
+Write the analyst report now.","The model predicts that ZIP is in a distressed state, with a probability of 56% for this classification, indicating a high level of uncertainty regarding its financial health. The top SHAP feature, asset_turnover, has a significant negative contribution of -1.006, suggesting that the company's ability to efficiently generate revenue from its assets is a major concern, which worsens the outlook. Additionally, the ebit_margin, with a negative SHAP contribution of -0.506, indicates that profitability is also under pressure, further supporting the distressed classification.
+
+Conversely, the debt_to_equity ratio, with a positive contribution of +0.870, suggests that the company’s leverage is relatively manageable, which provides some support to its overall financial position. However, the positive impact from debt_to_equity is not sufficient to offset the negative contributions from asset_turnover and ebit_margin. Overall, the model's confidence in the distressed classification reflects the challenges ZIP faces in maintaining operational efficiency and profitability amidst its current financial structure.",gpt-4o-mini,275,204,0.000164,
+NOV,2021,Distressed,At-Risk,False,asset_turnover,debt_to_equity,net_margin,"Company: NOV
+Fiscal year: 2021
+Model predicted class: At-Risk
+Class probabilities: Healthy=0.00, At-Risk=0.50, Distressed=0.50
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=0.578, SHAP contribution=+0.226
+- debt_to_equity: value=0.886, SHAP contribution=+0.204
+- net_margin: value=-0.045, SHAP contribution=+0.120
+
+Write the analyst report now.","The model predicts that NOV is at risk, with equal probabilities of being classified as At-Risk or Distressed, indicating a level of uncertainty in the assessment. The top SHAP features contributing positively to this prediction include asset turnover and debt to equity, which suggest that the company is effectively utilizing its assets to generate revenue and maintaining a manageable level of debt relative to equity. The asset turnover has a significant SHAP contribution of +0.226, while the debt to equity ratio contributes +0.204, reinforcing the notion that operational efficiency and financial leverage are somewhat favorable.
+
+However, the net margin, with a SHAP contribution of +0.120, indicates a negative value of -0.045, which worsens the outlook. This suggests that despite the positive contributions from asset turnover and debt to equity, NOV's profitability is under pressure, potentially impacting its ability to sustain operations. Overall, while there are some positive indicators, the combination of these factors leads to a cautious stance regarding the company's financial health.",gpt-4o-mini,277,202,0.000163,
+NUS,2022,Healthy,At-Risk,False,asset_turnover,opex_ratio,debt_to_equity,"Company: NUS
+Fiscal year: 2022
+Model predicted class: At-Risk
+Class probabilities: Healthy=0.07, At-Risk=0.89, Distressed=0.04
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=1.222, SHAP contribution=+0.263
+- opex_ratio: value=0.645, SHAP contribution=-0.242
+- debt_to_equity: value=1.029, SHAP contribution=+0.213
+
+Write the analyst report now.","The model predicts that NUS is At-Risk with a high probability of 89%, indicating significant concerns regarding its financial health. The confidence in this prediction is evident, given the low probability of being classified as Healthy at 7% and Distressed at only 4%. Among the top SHAP features, asset_turnover contributes positively with a value of 1.222, suggesting effective utilization of assets to generate revenue, which supports the company's outlook. 
+
+However, the negative contribution from the opex_ratio, with a value of 0.645, raises red flags, indicating that operational expenses are relatively high compared to revenue, which worsens the overall financial outlook. Additionally, while the debt_to_equity ratio at 1.029 has a positive contribution of 0.213, implying a manageable level of debt, it does not sufficiently counterbalance the concerns raised by the high operational expenses. Overall, the combination of these factors reinforces the model's prediction of NUS being At-Risk.",gpt-4o-mini,278,201,0.000162,
+SDPI,2023,Distressed,At-Risk,False,debt_to_equity,asset_turnover,size_bucket_micro,"Company: SDPI
+Fiscal year: 2023
+Model predicted class: At-Risk
+Class probabilities: Healthy=0.08, At-Risk=0.84, Distressed=0.08
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- debt_to_equity: value=0.623, SHAP contribution=+0.345
+- asset_turnover: value=0.776, SHAP contribution=+0.260
+- size_bucket_micro: value=1.000, SHAP contribution=-0.130
+
+Write the analyst report now.","The model predicts that SDPI is At-Risk with a high probability of 84%. This assessment is supported by the SHAP feature attributions, particularly the positive contributions from the debt_to_equity ratio and asset_turnover. The debt_to_equity ratio, with a value of 0.623 and a SHAP contribution of +0.345, indicates that the company is managing its debt levels relative to equity effectively, which is a positive sign. Additionally, the asset_turnover ratio of 0.776 and a contribution of +0.260 suggest that SDPI is utilizing its assets efficiently to generate revenue, further supporting the At-Risk classification.
+
+However, the size_bucket_micro feature, with a value of 1.000 and a SHAP contribution of -0.130, negatively impacts the outlook. This indicates that being classified as a micro-sized company may introduce vulnerabilities, such as limited access to capital or market fluctuations, which can exacerbate financial instability. Overall, while there are positive indicators regarding debt management and asset efficiency, the model remains confident in its At-Risk classification due to the challenges associated with the company's size.",gpt-4o-mini,278,230,0.00018,
+GHL,2021,At-Risk,Distressed,False,debt_to_equity,ebit_margin,net_margin,"Company: GHL
+Fiscal year: 2021
+Model predicted class: Distressed
+Class probabilities: Healthy=0.02, At-Risk=0.41, Distressed=0.57
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- debt_to_equity: value=10.739, SHAP contribution=+1.351
+- ebit_margin: value=0.224, SHAP contribution=-1.014
+- net_margin: value=0.133, SHAP contribution=-0.492
+
+Write the analyst report now.","The model predicts that GHL is in a distressed state, with a high probability of 57%, indicating significant concerns regarding its financial health. The model's confidence in this prediction is underscored by the low probability of being classified as healthy at just 2%. The top SHAP feature contributing positively to this prediction is the debt-to-equity ratio, which stands at 10.739, suggesting that high leverage may be a concern but is seen as a factor that somewhat supports the distress classification.
+
+Conversely, the ebit margin and net margin are contributing negatively to the outlook, with SHAP contributions of -1.014 and -0.492, respectively. The ebit margin of 0.224 indicates that operational profitability is under pressure, while the net margin of 0.133 further reflects challenges in overall profitability. These negative contributions highlight the financial struggles GHL faces, reinforcing the model's prediction of distress.",gpt-4o-mini,275,186,0.000153,
+DAC,2024,At-Risk,Healthy,False,asset_turnover,ebit_margin,debt_to_equity,"Company: DAC
+Fiscal year: 2024
+Model predicted class: Healthy
+Class probabilities: Healthy=0.93, At-Risk=0.06, Distressed=0.01
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=0.234, SHAP contribution=-1.477
+- ebit_margin: value=0.519, SHAP contribution=+1.324
+- debt_to_equity: value=0.268, SHAP contribution=+1.250
+
+Write the analyst report now.","The model predicts that DAC is in a healthy financial state with a high confidence level, reflected in a probability of 93% for this classification. This positive outlook is primarily supported by the strong ebit_margin, which has a substantial SHAP contribution of +1.324, indicating that the company's earnings before interest and taxes as a percentage of revenue are robust. Additionally, the debt_to_equity ratio contributes positively with a SHAP value of +1.250, suggesting a balanced approach to leveraging debt relative to equity.
+
+However, the asset_turnover ratio presents a concerning aspect, with a SHAP contribution of -1.477, indicating inefficiencies in how the company is utilizing its assets to generate sales. This negative attribution could potentially worsen the overall financial outlook if not addressed, despite the favorable signals from the ebit_margin and debt_to_equity metrics. Overall, while the model shows confidence in DAC's health, attention to asset management will be crucial for sustaining this positive trajectory.",gpt-4o-mini,275,197,0.000159,
+TNDM,2021,Distressed,At-Risk,False,asset_turnover,debt_to_equity,net_margin,"Company: TNDM
+Fiscal year: 2021
+Model predicted class: At-Risk
+Class probabilities: Healthy=0.01, At-Risk=0.73, Distressed=0.26
+
+Top three SHAP-attributed features (positive contribution pushes toward the predicted class, negative pushes away):
+- asset_turnover: value=0.776, SHAP contribution=+0.302
+- debt_to_equity: value=1.090, SHAP contribution=+0.183
+- net_margin: value=0.022, SHAP contribution=+0.154
+
+Write the analyst report now.","The model predicts that TNDM is at risk, with a high probability of 73% for this classification, indicating significant concerns regarding its financial health. The model shows confidence in this prediction, as evidenced by the low probability of 1% for the healthy class. The top SHAP features reveal that while asset turnover, debt to equity, and net margin all contribute positively to the outlook, they are not strong enough to offset the overall risk classification.
+
+Specifically, the asset turnover of 0.776 contributes positively with a SHAP value of +0.302, suggesting some efficiency in generating revenue from assets. The debt to equity ratio of 1.090, with a SHAP contribution of +0.183, indicates a manageable level of debt relative to equity, which can be seen as a stabilizing factor. However, the net margin of 0.022, contributing +0.154, reflects only a slim profit margin, which further underscores the financial challenges facing TNDM. Collectively, these factors highlight the company's struggles, reinforcing the model's at-risk classification.",gpt-4o-mini,279,219,0.000173,

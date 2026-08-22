@@ -1,0 +1,53 @@
+# pandas>=2.0
+# numpy>=1.24
+# matplotlib>=3.7
+# seaborn>=0.13
+# jupyter
+
+# Member 2 (Model Engineer) - H9DLGA
+#
+# Versions are pinned rather than floated because TreeSHAP is sensitive to
+# scikit-learn and xgboost releases: a mismatch between the version that
+# trained a model and the version that explains it produces confusing
+# failures in Member 3's work. Install these exact versions before adding
+# shap to the environment.
+#
+#   pip install -r requirements.txt
+
+# --- core ---
+pandas==3.0.2
+numpy==2.4.4
+scipy>=1.11
+
+# --- classical ML ---
+scikit-learn==1.8.0
+xgboost==3.3.0
+
+# --- deep learning ---
+torch==2.13.0
+
+# --- hyperparameter search ---
+optuna==4.9.0
+
+# --- explainability (Member 3) ---
+shap==0.52.0
+
+# --- LLM narrative generation (Member 3) ---
+# openai is required only if regenerating narratives in notebook 07.
+# The generated narratives are already committed to results/narratives/
+# so evaluators can inspect them without an API key.
+openai>=1.30
+
+# --- Excel output for the human study spreadsheet (Member 3) ---
+openpyxl>=3.1
+
+# --- persistence ---
+joblib==1.5.3
+
+# --- plotting ---
+matplotlib==3.10.8
+seaborn==0.13.2
+
+# --- notebooks ---
+jupyter>=1.0
+ipykernel>=6.0

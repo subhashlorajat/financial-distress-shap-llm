@@ -1,0 +1,11 @@
+company_id,year,label,pred_LogisticRegression,conf_LogisticRegression,pred_XGBoost,conf_XGBoost,pred_MLP,conf_MLP,pred_TabTransformer,conf_TabTransformer,n_unique,all_agree,correct
+FTEK,2022,At-Risk,Distressed,0.3989,Healthy,0.9865,Healthy,0.8843,Healthy,0.6575,2,False,False
+UGI,2023,At-Risk,Distressed,0.7038,Distressed,0.9696,Distressed,0.6618,Distressed,0.7797,1,True,False
+ZVO,2021,At-Risk,Distressed,0.5247,Distressed,0.9629,Distressed,0.9926,Distressed,0.9248,1,True,False
+XRX,2024,At-Risk,Distressed,0.8753,Distressed,0.9618,Distressed,0.6242,Distressed,0.9048,1,True,False
+BRK-A,2022,At-Risk,Distressed,0.9259,Distressed,0.9585,Distressed,0.9511,Distressed,0.9945,1,True,False
+FTEK,2023,At-Risk,Distressed,0.4767,Healthy,0.9546,Healthy,0.7601,Healthy,0.6111,2,False,False
+MRAM,2023,At-Risk,Healthy,0.9377,Healthy,0.9536,Healthy,0.9766,Healthy,0.9706,1,True,False
+YELP,2024,At-Risk,Healthy,0.9563,Healthy,0.9481,Healthy,0.846,Healthy,0.8604,1,True,False
+CDXC,2024,Distressed,Healthy,0.9412,Healthy,0.9393,Healthy,0.8616,Healthy,0.6542,1,True,False
+RAD,2021,At-Risk,Healthy,0.9733,Healthy,0.9389,Healthy,0.999,Healthy,0.9368,1,True,False
